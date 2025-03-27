@@ -58,3 +58,19 @@ También puedes donar recursos de todo tipo, ya sean libros, material didáctico
                         target="_blank" style="color: #fff;">email</a>. Si quieres informarte mas o queres participar
                     puedes contarnos un poco sobre vos y en qué tareas quieres/puedes colaborar.
 /end
+
+/ini#subtitulo3
+Datos de contacto: 
+/end
+
+/ini#lista1b
+Gmail: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vincular.futuro@gmail.com" target="_blank">vincular.futuro@gmail.com</a>
+/end
+
+/ini#lista2b
+Teléfono: 11 4938-7750
+/end
+
+/ini#lista3b
+Facebook: <a href="https://www.facebook.com/AsociacionVincular">Vincular-Pensarme un futuro
+/end
