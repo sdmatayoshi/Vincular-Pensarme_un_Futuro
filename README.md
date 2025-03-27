@@ -1,4 +1,4 @@
-# Vincular-Pensarme_un_Futuro
+# Vincular-Pensarme un Futuro
 
 <h2>Notas para edicion:</h2>
 - Para añadir un salto de linea se debe escribir "<br>" en donde se requiera.
