@@ -1,12 +1,16 @@
+/ini#titulo
 test text1
 test text2
 test text3
-/ini
+/end
+/ini#descripcion
 test text4
 test text5
 test text6
 /end
+/ini#info
 test text7
 test text8
 test text9
 test text10
+/end
