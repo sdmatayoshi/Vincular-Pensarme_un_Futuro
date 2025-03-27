@@ -10,8 +10,6 @@ Nuestros contactos:
 Gmail: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vincular.futuro@gmail.com" target="_blank">vincular.futuro@gmail.com</a>
 /end
 
-(añadir "&su=Asunto:&body=Consulta:" al final de la url si se quiere añadir un contenido predefinido)
-
 /ini#lista2
 Teléfono: 11 4938-7750
 /end
