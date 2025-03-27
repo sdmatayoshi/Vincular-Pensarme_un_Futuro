@@ -355,9 +355,9 @@
                     <h1 id="titulo1"></h1><br><br>
                     <h2 id="subtitulo1"></h2><br>
                     <ul>
-                    <li class="R2L"></li><br>
-                    <li class="R2L"></li><br>
-                    <li class="R2L"></li>
+                    <li class="R2L" id="lista1"></li><br>
+                    <li class="R2L" id="lista2"></li><br>
+                    <li class="R2L" id="lista3"></li>
                     </ul>
                 </div>
             </div>
