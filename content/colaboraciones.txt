@@ -46,7 +46,7 @@ Realizar charlas
 Doná
 /end
 
-/ini#detalles2
+/ini#detalles3
 También puedes donar recursos de todo tipo, ya sean libros, material didáctico, de
                     librería, de ferretería,
                     computadoras, mobiliario, etc.<br><br>
