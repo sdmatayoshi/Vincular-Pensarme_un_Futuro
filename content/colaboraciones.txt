@@ -23,9 +23,9 @@ Podés sumarte como voluntario para realizar diversas tareas que apoyen tanto di
 /end
 
 /ini#lista1
-                    <li class="R2L">Realizar tareas administrativas o trámite.</li>
-                    <li class="R2L">Ayudar a preparar o transportar donaciones.</li>
-                    <li class="R2L">Buscar donantes de recursos.</li>
-                    <li class="R2L">Editar videos y/o colaborar en el armado de registros de nuestras acciones.</li>
-                    <li class="R2L">Realizar charlas</li>
+<li class="R2L">Realizar tareas administrativas o trámite.</li>
+<li class="R2L">Ayudar a preparar o transportar donaciones.</li>
+<li class="R2L">Buscar donantes de recursos.</li>
+<li class="R2L">Editar videos y/o colaborar en el armado de registros de nuestras acciones.</li>
+<li class="R2L">Realizar charlas</li>
 /end
