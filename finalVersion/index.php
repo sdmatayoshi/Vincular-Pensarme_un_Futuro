@@ -321,7 +321,7 @@
             <li class="logo"> <a href="https://vincular.org.ar"><img class="HDN"
                         src="https://vincular.org.ar/wp-content/uploads/2024/10/logo-3.png" style="height: 75px;"></a>
             </li>
-            <li><a class="und D2U" href="https://vincular.org.ar/quienes-somos/">¿Quiénes somos?</a></li>
+            <li><a class="und D2U" href="https://vincular.org.ar/quienes-somos-3/">¿Quiénes somos?</a></li>
             <li>
                 <a class="und D2U" href="https://vincular.org.ar/nuestra-tarea/">Nuestra tarea ▾</a>
                 <ul class="dropdown">
