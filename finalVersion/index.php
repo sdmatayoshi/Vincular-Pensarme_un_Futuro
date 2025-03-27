@@ -339,8 +339,8 @@
         <!-- style="text-decoration: underline; color:rgba(50, 50, 50, 1); cursor: pointer"-->
         <br>
         <div>
-            <a href="vincular.org.ar/sumate" class="slink">
-                <div class="ybtn HDN">Nuestro proyecto 2025, sumate!</div>
+            <a href="https://vincular.org.ar/proyectos/" class="slink">
+                <div class="ybtn HDN">Nuestro proyecto, sumate!</div>
             </a>
         </div>
         <div class="content" style="margin-top: 3vw;">
