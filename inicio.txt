@@ -1,0 +1,18 @@
+/ini#titulo
+Un poco sobre nosotros
+/end
+
+/ini#subtitulo
+¿Qué es Vincular-Pensarme un Futuro?
+/end
+
+/ini#descripcion
+Vincular-Pensarme un Futuro es una Asociación Civil sin fines de lucro, fundada en 2011, que trabaja en la promoción de derechos y la construcción de ciudadanía junto a niños, niñas y adolescentes.  Nuestra misión se enfoca en diseñar e implementar proyectos sociales, educativos y culturales, especialmente en territorios con alta vulnerabilidad social, con el objetivo de generar un impacto positivo en el desarrollo humano.
+/end
+
+/ini#info
+test text7
+test text8
+test text9
+test text10
+/end
