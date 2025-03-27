@@ -321,22 +321,24 @@
 <body>
     <div class="navbar">
         <ul class="menu">
-            <li class="logo"> <a href="index.php"><img class="HDN"
+            <li class="logo"> <a href="https://vincular.org.ar/inicio"><img class="HDN"
                         src="https://vincular.org.ar/wp-content/uploads/2024/10/logo-3.png" style="height: 75px;"></a>
             </li>
-            <li><a class="und D2U" href="quienesSomos.php">¿Quiénes somos?</a></li>
+            <li><a class="und D2U" href="https://vincular.org.ar/quienes-somos/">¿Quiénes somos?</a></li>
             <li>
-                <a class="und D2U" href="nuestraTarea.php">Nuestra tarea ▾</a>
+                <a class="und D2U" href="https://vincular.org.ar/nuestra-tarea/">Nuestra tarea ▾</a>
                 <ul class="dropdown">
-                    <li><a class="und" href="nuestrosProyectos.php">Nuestros Proyectos</a>
+                    <li><a class="und" href="https://vincular.org.ar/nuestros-proyectos/">Nuestros Proyectos</a>
                     </li>
-                    <li><a class="und" href="formacionAsistencia.php">Formacion y Asistencia Técnica</a></li>
-                    <li><a class="und" href="redVincular.php">Red Solidaria "Vincularnos"</a></li>
+                    <li><a class="und" href="https://vincular.org.ar/formacion-y-asistencia-tecnica/">Formacion y
+                            Asistencia Técnica</a></li>
+                    <li><a class="und" href="https://vincular.org.ar/red-solidaria-vincularnos/">Red Solidaria
+                            "Vincularnos"</a></li>
                 </ul>
             </li>
-            <li><a class="und D2U" href="contactanos.php">Contáctanos</a></li>
-            <li><a class="und D2U" style="text-decoration: underline; color:rgba(50, 50, 50, 1); cursor: pointer">Participar</a></li>
-            <li><a class="und D2U" href="galeria.php">Galería</a></li>
+            <li><a class="und D2U" href="https://vincular.org.ar/contactanos/">Contáctanos</a></li>
+            <li><a class="und D2U" href="https://vincular.org.ar/participar/">Participar</a></li>
+            <li><a class="und D2U" href="https://vincular.org.ar/galeria-de-fotos/">Galería</a></li>
         </ul>
     </div>
     <div class="has-bg-img image-container">

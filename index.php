@@ -95,11 +95,12 @@
                 left: 0;
                 min-width: 100%;
                 min-height: 100vh;
-                background-image: url(https://vincular.org.ar/wp-content/uploads/2024/10/snapedit_1736299645183-1.png);
+                background: linear-gradient(to top, rgba(228, 240, 235, 1) 0%, rgba(228, 240, 235, 0) 20%),
+                    url(https://vincular.org.ar/wp-content/uploads/2024/10/snapedit_1736299645183-1.png);
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;
-                opacity: 0.5 !important;
+                opacity: 0.7 !important;
                 z-index: 0 !important;
                 display: block !important;
             }
@@ -144,7 +145,7 @@
                 padding: 0;
                 top: 100%;
                 left: 0;
-                width: 200px;
+                width: 400px;
                 border-radius: 5px;
                 box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
                 max-height: 0;
@@ -152,6 +153,7 @@
                 overflow: hidden;
                 transition: max-height 0.3s ease-out;
                 z-index: 10;
+                text-align: left;
             }
 
             /* Cuando el usuario pasa el mouse */
@@ -231,7 +233,7 @@
 
             .content {
                 background-color: #e4f0eb;
-                max-width: 90%;
+                max-width: 75%;
                 height: 200%;
                 display: inline-block;
                 z-index: 1;
@@ -297,7 +299,7 @@
                 display: none !important;
             }
 
-            .has-text-align-center, 
+            .has-text-align-center,
             .wp-block-post-title,
             .wp-block-spacer {
                 display: none !important;
@@ -316,85 +318,116 @@
     <div class="has-bg-img">
         <div class="navbar">
             <ul class="menu">
-                <li><a class="und D2U" href="https://vincular.org.ar/quienes-somos/">¿Quiénes somos?</a></li>
+                <li><a class="und D2U" href="quienesSomos.php">¿Quiénes somos?</a></li>
                 <li>
-                    <a class="und D2U" href="https://vincular.org.ar/nuestra-tarea/">Nuestra tarea ▾</a>
+                    <a class="und D2U" href="nuestraTarea.php">Nuestra tarea ▾</a>
                     <ul class="dropdown">
-                        <li><a class="und" href="https://vincular.org.ar/nuestros-proyectos/">Nuestros Proyectos</a>
+                        <li><a class="und" href="nuestrosProyectos.php">Nuestros Proyectos</a>
                         </li>
-                        <li><a class="und" href="https://vincular.org.ar/formacion-y-asistencia-tecnica/">Formacion y
-                                Asistencia Técnica</a></li>
-                        <li><a class="und" href="https://vincular.org.ar/red-solidaria-vincularnos/">Red Solidaria
-                                "Vincularnos"</a></li>
+                        <li><a class="und" href="formacionAsistencia.php">Formacion y Asistencia Técnica</a></li>
+                        <li><a class="und" href="redVincular.php">Red Solidaria "Vincularnos"</a></li>
                     </ul>
                 </li>
-                <li><a class="und D2U" href="https://vincular.org.ar/contactanos/">Contáctanos</a></li>
-                <li><a class="und D2U" href="https://vincular.org.ar/participar/">Participar</a></li>
-                <li><a class="und D2U" href="https://vincular.org.ar/galeria-de-fotos/">Galería</a></li>
+                <li><a class="und D2U" href="contactanos.php">Contáctanos</a></li>
+                <li><a class="und D2U" href="colaboraciones.php">Participar</a></li>
+                <li><a class="und D2U" href="galeria.php">Galería</a></li>
             </ul>
         </div>
         <br>
         <div>
-            <a href="vincular.org.ar/sumate" class="slink">
-                <div class="ybtn HDN">Nuestro proyecto 2025, sumate!</div>
+            <a href="proyectos.php" class="slink">
+                <div class="ybtn HDN">Nuestro proyecto, sumate!</div>
             </a>
         </div>
         <div class="content" style="margin-top: 3vw;">
             <div class="R2L" style="text-align: left; width: 75%; margin-left: 3vw; margin-top: 50px;">
-                <h1>Un poco sobre nosotros</h1><br><br>
-                <h2>¿Qué es Vincular-Pensarme un Futuro?</h2>
-                <p style="font-size: 1.5vw;">
-                    Vincular-Pensarme un Futuro es una Asociación Civil sin fines de lucro,
-                    fundada en 2011, que trabaja en la promoción de derechos y la construcción de ciudadanía junto a
-                    niños,
-                    niñas y adolescentes.
-                    Nuestra misión se enfoca en diseñar e implementar proyectos sociales, educativos y culturales,
-                    especialmente en territorios con alta vulnerabilidad social,
-                    con el objetivo de generar un impacto positivo en el desarrollo humano.</p>
+                <h1 id="titulo"></h1><br><br>
+                <h2 id="subtitulo1"></h2><br>
+                <p id="descripcion" style="font-size: 1.5vw;"></p>
             </div>
+            <br>
             <br>
             <div class="info" style="display: flex; justify-content: space-between;">
                 <div style="width: 50%;" class="R2L">
                     <h2>Nuestros Focos</h2>
                     <div style="display: flex; gap: 20px; margin-left: 1vw; margin-right: 1vw;">
-                        <div style="width: 33%; background-color: #f7cbad; padding: 1vw; border-radius: 5%;">
-                            Proyectos educativos integrales: ciencia, arte y expresión
+                        <div style="width: 33%; background-color: #bdb330; padding: 1vw; border-radius: 5%;">
+                        <div style="height: 50%">
+                                <img src="https://vincular.org.ar/wp-content/uploads/2025/02/Copia-de-General-Patio.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover">
+                            </div>
+                            <div style="height: 50%">
+                            Proyectos educativos integrales: ciencia, arte y expresión</div>
                         </div>
-                        <div style="width: 33%; background-color: #f7cbad; padding: 1vw; border-radius: 5%;">
-                            Formación y capacitación en el área socioeducativa
+                        <div style="width: 33%; background-color: #bdb330; padding: 1vw; border-radius: 5%;">
+                        <div style="height: 50%">
+                                <img src="https://vincular.org.ar/wp-content/uploads/2025/02/Copia-de-paque-estacion-2-1.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover">
+                            </div>
+                            <div style="height: 50%">
+                            Formación y capacitación en el área socioeducativa</div>
                         </div>
-                        <div style="width: 33%; background-color: #f7cbad; padding: 1vw; border-radius: 5%;">
-                            Tejido de redes con instituciones y actores sociales
+                        <div style="width: 33%; background-color: #bdb330; padding: 1vw; border-radius: 5%;">
+                        <div style="height: 50%">
+                                <img src="https://vincular.org.ar/wp-content/uploads/2025/02/02_red-solidaria-vincularnos.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover">
+                            </div>
+                            <div style="height: 50%">
+                            Tejido de redes con instituciones y actores sociales</div>
                         </div>
                     </div>
                 </div>
                 <div style="width: 50%;" class="L2R">
                     <h2>¿Cómo sumarte?</h2>
                     <div style="display: flex; gap: 20px; margin-right: 1vw; margin-left: 1vw;">
-                        <div style="width: 33%; background-color: #f7cbad; padding: 1vw; border-radius: 5%;">
+                        <div style="width: 33%; background-color: #79c9b0; padding: 1vw; border-radius: 5%;">
+                        <div style="height: 50%">
+                                <img src="https://vincular.org.ar/wp-content/uploads/2025/02/201803201711190.fb_.jpg" alt="" style="width: 100%; height:100%; object-fit: cover">
+                            </div>
+                            <div style="height: 50%">
                             Colaboraciones en diversas tareas de apoyo a los proyectos
                         </div>
-                        <div style="width: 33%; background-color: #f7cbad; padding: 1vw; border-radius: 5%;">
-                            Donaciones de materiales, libros, mobiliario, etc
                         </div>
-                        <div style="width: 33%; background-color: #f7cbad; padding: 1vw; border-radius: 5%;">
-                            Contribuciones monetarias para que funcionen los proyectos
+                        <div style="width: 33%; background-color: #79c9b0; padding: 1vw; border-radius: 5%;">
+                            <div style="height: 50%">
+                                <img src="https://vincular.org.ar/wp-content/uploads/2025/02/images.jpeg" alt="" style="width: 100%; height:100%; object-fit: cover">
+                            </div>
+                            <div style="height: 50%">
+                                Donaciones de materiales, libros, mobiliario, etc</div>
+                        </div>
+                        <div style="width: 33%; background-color: #79c9b0; padding: 1vw; border-radius: 5%;">
+                            <div style="height: 50%">
+                                <img src="https://vincular.org.ar/wp-content/uploads/2025/02/nino-gana-dinero-futuro_53876-14548.avif" alt="" style="width: 100%; height:100%; object-fit: cover">
+                            </div>
+                            <div style="height: 50%">
+                                Contribuciones monetarias para que funcionen los proyectos
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <br><br><br>
-            <a href="#"
-                style="color: #fff; text-decoration: none; display: flex; justify-content: center; align-items: center;">
-                <div
-                    style="background-color: #000; width: 100px; height: 25px; display: flex; justify-content: center; align-items: center; border-radius: 5px; overflow: hidden;">
-                    <b>ASOCIATE</b>
-                </div>
-            </a>
         </div>
     </div>
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
+     fetch("https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/inicio.txt")
+     .then(response => response.text())
+    .then(data => {
+        // Buscar todas las coincidencias con etiquetas personalizadas (/ini#clave ... /end)
+        let matches = [...data.matchAll(/\/ini#(\w+)\s(.*?)\/end/gs)];
+
+        if (matches.length > 0) {
+            matches.forEach(match => {
+                let clave = match[1]; // Nombre del identificador (ej. "titulo")
+                let contenido = match[2].trim(); // Contenido dentro del bloque
+                
+                // Insertar contenido en el elemento correspondiente si existe
+                let elemento = document.getElementById(clave);
+                if (elemento) {
+                    elemento.innerHTML = contenido;
+                }
+            });
+        }
+    })
+    .catch(error => console.error("Error de carga. <br>Porfavor recague la página presionando el boton ⟳ o la tecla F5.<br>Si el error persiste, intente de nuevo más tarde:", error));
+
+        document.addEventListener("DOMContentLoaded", function() {
             let elements = document.querySelectorAll(".D2U");
             let observer = new IntersectionObserver(entries => {
                 entries.forEach(entry => {
@@ -402,10 +435,12 @@
                         entry.target.classList.add("D2Uv");
                     }
                 });
-            }, { threshold: 0.5 });
+            }, {
+                threshold: 0.5
+            });
             elements.forEach(element => observer.observe(element));
         });
-        document.addEventListener("DOMContentLoaded", function () {
+        document.addEventListener("DOMContentLoaded", function() {
             let elements = document.querySelectorAll(".U2D");
             let observer = new IntersectionObserver(entries => {
                 entries.forEach(entry => {
@@ -413,10 +448,12 @@
                         entry.target.classList.add("U2Dv");
                     }
                 });
-            }, { threshold: 0.5 });
+            }, {
+                threshold: 0.5
+            });
             elements.forEach(element => observer.observe(element));
         });
-        document.addEventListener("DOMContentLoaded", function () {
+        document.addEventListener("DOMContentLoaded", function() {
             let elements = document.querySelectorAll(".R2L");
             let observer = new IntersectionObserver(entries => {
                 entries.forEach(entry => {
@@ -424,11 +461,13 @@
                         entry.target.classList.add("R2Lv");
                     }
                 });
-            }, { threshold: 0.5 });
+            }, {
+                threshold: 0.5
+            });
 
             elements.forEach(element => observer.observe(element));
         });
-        document.addEventListener("DOMContentLoaded", function () {
+        document.addEventListener("DOMContentLoaded", function() {
             let elements = document.querySelectorAll(".L2R");
             let observer = new IntersectionObserver(entries => {
                 entries.forEach(entry => {
@@ -436,11 +475,13 @@
                         entry.target.classList.add("L2Rv");
                     }
                 });
-            }, { threshold: 0.5 });
+            }, {
+                threshold: 0.5
+            });
 
             elements.forEach(element => observer.observe(element));
         });
-        document.addEventListener("DOMContentLoaded", function () {
+        document.addEventListener("DOMContentLoaded", function() {
             let elements = document.querySelectorAll(".HDN");
             let observer = new IntersectionObserver(entries => {
                 entries.forEach(entry => {
@@ -448,7 +489,9 @@
                         entry.target.classList.add("VSBL");
                     }
                 });
-            }, { threshold: 0.7 });
+            }, {
+                threshold: 0.7
+            });
 
             elements.forEach(element => observer.observe(element));
         });
