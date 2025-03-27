@@ -1,0 +1,71 @@
+/ini#titulo1
+Te contamos
+/end
+
+/ini#subtitulo1
+¿Quiénes somos?
+/end
+
+/ini#detalles1
+Somos una Asociación Civil sin fines de lucro, que trabaja desde el año 2011 en la promoción de derechos y en la construcción de ciudadanía junto a niños, niñas y adolescentes. Nuestro equipo está conformado por profesionales de diferentes disciplinas, con una amplia trayectoria en el trabajo con infancias y adolescencias.
+/end
+
+/ini#subtitulo2
+¿Quienes conforman a Vincular-Pensarme un Futuro?
+/end
+
+/ini#subsubtitulo1
+Autoridades vigentes 2023-2025:
+/end
+
+/ini#lista1
+Daniel Musikant – Presidente
+/end
+
+/ini#lista2
+Diego Junovich – Vicepresidente
+/end
+
+/ini#lista3
+Germán Zlatkes – Secretario
+/end
+
+/ini#lista4
+Johanna Zlatkes – Prosecretaria
+/end
+
+/ini#lista5
+Lelia Adissi – Tesorera
+/end
+
+/ini#lista6
+Johanna Higa – Protesorera
+/end
+
+/ini#lista7
+Romina Higa – Vocal titular
+/end
+
+/ini#lista8
+Luciana Piantanida – Vocal titular
+/end
+
+/ini#lista9
+Victoria Tolmasky – vocal suplente
+/end
+
+/ini#lista10
+Sergio Musikant – Vocal suplente
+/end
+
+/ini#subsubtitulo2
+Comisión revisora de cuentas:
+/end
+
+/ini#lista1b
+Pablo Lutenberg
+/end
+
+/ini#lista2b
+Esteban Rotman
+/end

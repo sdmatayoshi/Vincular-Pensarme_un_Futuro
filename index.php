@@ -406,7 +406,7 @@
         </div>
     </div>
     <script>
-     fetch("https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/inicio.txt")
+     fetch("https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/content/inicio.txt")
      .then(response => response.text())
     .then(data => {
         // Buscar todas las coincidencias con etiquetas personalizadas (/ini#clave ... /end)

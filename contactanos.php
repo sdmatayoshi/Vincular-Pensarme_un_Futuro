@@ -352,18 +352,38 @@
             <div style="background-color: #e4f0eb; display:inline-block; position: relative; z-index: 1; min-height:250px">
 
                 <div class="R2L" style="text-align: left; margin-top: 5vw; margin-left: 5vw; margin-right: 5vw; margin-bottom: 5vw; margin-top: 50px;">
-                    <h1>Contáctanos</h1><br><br>
-                    <h2>Nuestros contactos:</h2><br>
+                    <h1 id="titulo1"></h1><br><br>
+                    <h2 id="subtitulo1"></h2><br>
                     <ul>
-                    <li class="R2L">Gmail: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vincular.futuro@gmail.com" target="_blank">vincular.futuro@gmail.com</a></li><br><!--&su=Asunto:&body=Consulta:-->
-                    <li class="R2L">Teléfono: 11 4938-7750</li><br>
-                    <li class="R2L">Facebook: <a href="https://www.facebook.com/AsociacionVincular">Vincular-Pensarme un futuro</a></li>
+                    <li class="R2L"></li><br>
+                    <li class="R2L"></li><br>
+                    <li class="R2L"></li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
     <script>
+        fetch("https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/content/contactanos.txt")
+            .then(response => response.text())
+            .then(data => {
+                // Buscar todas las coincidencias con etiquetas personalizadas (/ini#clave ... /end)
+                let matches = [...data.matchAll(/\/ini#(\w+)\s(.*?)\/end/gs)];
+
+                if (matches.length > 0) {
+                    matches.forEach(match => {
+                        let clave = match[1]; // Nombre del identificador (ej. "titulo")
+                        let contenido = match[2].trim(); // Contenido dentro del bloque
+
+                        // Insertar contenido en el elemento correspondiente si existe
+                        let elemento = document.getElementById(clave);
+                        if (elemento) {
+                            elemento.innerHTML += contenido;
+                        }
+                    });
+                }
+            })
+            .catch(error => console.error("Error de carga. <br>Porfavor recague la página presionando el boton ⟳ o la tecla F5.<br>Si el error persiste, intente de nuevo más tarde:", error));
         document.addEventListener("DOMContentLoaded", function() {
             let elements = document.querySelectorAll(".D2U");
             let observer = new IntersectionObserver(entries => {

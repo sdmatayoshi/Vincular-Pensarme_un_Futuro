@@ -473,11 +473,11 @@
     <div class="has-bg-img">
         <div class="content" style="margin-top: 3vw;">
             <div class="R2L" style="text-align: left; width: 500px; margin-left: 5vw; margin-top: 50px;">
-                <h1>Proyectos</h1><br><br>
-                <h2>Proyectos en curso</h2><br>
+                <h1 id="titulo1"></h1><br><br>
+                <h2 id="subtitulo1"></h2><br>
                 <a href="#"><div class="aam"></div></a><br>
                 <a href="#"><div class="rdt"></div></a><br>
-                <h2>Proyectos anteriores</h2><br>
+                <h2 id="subtitulo2"></h2><br>
                 <a href="#"><div class="coltemp">Colapso Temporal</div></a><br>
                 <a href="oscuminar.php"><div class="osc"></div></a><br>
                 <a href="#"><div class="espex"></div></a><br>
@@ -489,6 +489,26 @@
         </div>
     </div>
     <script>
+        fetch("https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/content/proyectos.txt")
+     .then(response => response.text())
+    .then(data => {
+        // Buscar todas las coincidencias con etiquetas personalizadas (/ini#clave ... /end)
+        let matches = [...data.matchAll(/\/ini#(\w+)\s(.*?)\/end/gs)];
+
+        if (matches.length > 0) {
+            matches.forEach(match => {
+                let clave = match[1]; // Nombre del identificador (ej. "titulo")
+                let contenido = match[2].trim(); // Contenido dentro del bloque
+                
+                // Insertar contenido en el elemento correspondiente si existe
+                let elemento = document.getElementById(clave);
+                if (elemento) {
+                    elemento.innerHTML = contenido;
+                }
+            });
+        }
+    })
+    .catch(error => console.error("Error de carga. <br>Porfavor recague la página presionando el boton ⟳ o la tecla F5.<br>Si el error persiste, intente de nuevo más tarde:", error));
         document.addEventListener("DOMContentLoaded", function() {
             let elements = document.querySelectorAll(".D2U");
             let observer = new IntersectionObserver(entries => {

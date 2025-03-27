@@ -1,0 +1,7 @@
+/ini#titulo1
+Formación y asistencia técnica
+/end
+
+/ini#contenido1
+Una apuesta al acompañamiento y a la transmisión, desde la perspectiva de derechos, junto a instituciones y organizaciones que trabajan con infancias y adolescencias.
+/end

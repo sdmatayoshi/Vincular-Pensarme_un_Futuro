@@ -343,55 +343,51 @@
     <div class="has-bg-img">
         <div class="content" style="margin-top: 3vw;">
             <div class="R2L" style="text-align: left; width: 75%; margin-left: 5vw; margin-top: 50px;">
-                <h1>Nuestros Proyectos</h1><br><br>
-                <h2>Proyectos educativos integrales</h2><br>
+                <h1 id="titulo1"></h1><br><br>
+                <h2 id="subtitulo1"></h2><br>
                 <ul>
-                    <li>
-                        Proyecto “El Parque de la Estación: un lugar pensado desde y para los chicos del barrio”. 
-                        Junto a la Asociación Civil Vecinos por el Parque de la Estación, Comuna 3.
-
-                    </li><br>
-                    <li>
-                        Acompañamiento a Proyectos Educativos Bianuales del Programa Casas de los Niños, Niñas y Adolescentes – GCBA.
-                    </li><br>
-                    <li>
-                        Talleres de acompañamiento a las trayectorias escolares primarias, secundarias, terciarias y universita rias, 
-                        en articulación con diferentes instituciones educativas.
-                    </li><br>
+                    <li id="lista1"></li><br>
+                    <li id="lista2"></li><br>
+                    <li id="lista3"></li><br>
                 </ul>
-                <h2>Género, promoción y cuidado de la salud</h2><br>
+                <h2 id="subtitulo2"></h2><br>
                 <ul>
-                    <li>
-                    Mitos y verdades acerca del Dengue” junto a organizaciones de la comunidad del Barrio 21-24 de 
-                    Barracas y extensión universitaria Facultad de Ciencias Exactas y Naturales-UBA.
-                    </li><br>
-                    <li>
-                    Talleres de fortalecimiento de las redes comunitarias para el acceso a la salud de niñas, 
-                    iños y adolescentes. Vacunación, controles pediátricos y hebiátricos.
-                    </li><br>
-                    <li>
-                    Talleres de acompañamiento al embarazo adolescente y a la crianza durante la primera infancia
-                    </li><br>
-                    <li>
-                    Talleres de Educación Sexual Integral y Reproductiva.
-                    </li><br>
+                    <li id="lista1b"></li><br>
+                    <li id="lista2b"></li><br>
+                    <li id="lista3b"></li><br>
+                    <li id="lista4b"></li><br>
                 </ul>
-                <h2>Cuidado del medio ambiente y formación ambiental</h2><br>
+                <h2 id="subtitulo3"></h2><br>
                 <ul>
-                    <li>
-                    Huerta comunitaria y cuidado de la naturaleza” Junto al Cesac NO 9 y Red Barrial – Boca-Barracas.
+                    <li id="lista1c">
                     </li><br>
-                    <li>
-                    Hacia el cuidado de nuestro Riachuelo” junto a niños, niñas, adolescentes y familias del Barrio 21-24 Barracas, 
-                    ACUMAR, Antigua Barraca Peña, Instituto de Arqueología-FFyL UBA, Área de Extensión de la Facultad de Ciencias Exactas y 
-                    Naturales UBA , Dir. Gral. Patrimonio de la Ciudad GCBA.
-                    </li><br>
+                    <li id="lista2c"></li><br>
                 </ul>
             </div>
 
         </div>
     </div>
     <script>
+        fetch("https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/content/nuestrosProyectos.txt")
+     .then(response => response.text())
+    .then(data => {
+        // Buscar todas las coincidencias con etiquetas personalizadas (/ini#clave ... /end)
+        let matches = [...data.matchAll(/\/ini#(\w+)\s(.*?)\/end/gs)];
+
+        if (matches.length > 0) {
+            matches.forEach(match => {
+                let clave = match[1]; // Nombre del identificador (ej. "titulo")
+                let contenido = match[2].trim(); // Contenido dentro del bloque
+                
+                // Insertar contenido en el elemento correspondiente si existe
+                let elemento = document.getElementById(clave);
+                if (elemento) {
+                    elemento.innerHTML = contenido;
+                }
+            });
+        }
+    })
+    .catch(error => console.error("Error de carga. <br>Porfavor recague la página presionando el boton ⟳ o la tecla F5.<br>Si el error persiste, intente de nuevo más tarde:", error));
         document.addEventListener("DOMContentLoaded", function() {
             let elements = document.querySelectorAll(".D2U");
             let observer = new IntersectionObserver(entries => {

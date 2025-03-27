@@ -345,24 +345,33 @@
     <div class="has-bg-img">
         <div class="content" style="margin-top: 3vw;">
             <div class="R2L" style="text-align: left; width: 75%; margin-left: 5vw; margin-top: 50px;">
-                <h1>Nuestra Tarea</h1><br><br>
-                <p>
-                Diseñamos, implementamos y promovemos experiencias relacionadas con las artes y las ciencias como gesto educativo de 
-                acceso a la cultura en territorios de alta criticidad social. Una apuesta al futuro para las nuevas generaciones.
-            </p><br>
-            <p>
-            Nuestras propuestas, encuadradas en el desarrollo humano, persiguen un triple impacto: social, educativo y cultural.
-            </p><br>
-            <p>
-            Para llevar adelante estos objetivos, trabajamos bajo la modalidad de gestión asociada en articulación con instituciones 
-            públicas -privadas y estatales- que comparten el espíritu y los valores de nuestra propuesta.
-            </p>
+                <h1 id="titulo1"></h1><br><br>
+                <p id="contenido1"></p>
                 <br><br>
             </div>
-
         </div>
     </div>
     <script>
+        fetch("https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/content/nuestraTarea.txt")
+     .then(response => response.text())
+    .then(data => {
+        // Buscar todas las coincidencias con etiquetas personalizadas (/ini#clave ... /end)
+        let matches = [...data.matchAll(/\/ini#(\w+)\s(.*?)\/end/gs)];
+
+        if (matches.length > 0) {
+            matches.forEach(match => {
+                let clave = match[1]; // Nombre del identificador (ej. "titulo")
+                let contenido = match[2].trim(); // Contenido dentro del bloque
+                
+                // Insertar contenido en el elemento correspondiente si existe
+                let elemento = document.getElementById(clave);
+                if (elemento) {
+                    elemento.innerHTML = contenido;
+                }
+            });
+        }
+    })
+    .catch(error => console.error("Error de carga. <br>Porfavor recague la página presionando el boton ⟳ o la tecla F5.<br>Si el error persiste, intente de nuevo más tarde:", error));
         document.addEventListener("DOMContentLoaded", function() {
             let elements = document.querySelectorAll(".D2U");
             let observer = new IntersectionObserver(entries => {

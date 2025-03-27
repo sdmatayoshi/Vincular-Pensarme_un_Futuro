@@ -344,15 +344,31 @@
         <div class="content">
             <div class="R2L" style="text-align: center; width: 1000px; margin-top: 50px;">
                 <center><img src="img/osc.jpg" alt="" style="height:100px;"></center>
-                <a style="color: white; font-size:30px">Oscuminar: echar oscuridad para ver mejor. <br>Desde esa idea, los chicos y las chicas 
-                    construyeron distintas salas de juego con la oscuridad como aliada. 
-                    En Oscuminar, los visitantes ingresan al interior de un volcán, 
-                    a la panza de un monstruo o descienden por las capas tectónicas de la tierra debajo de las baldosas. 
-                    Incluso podían ser invitados a iniciarse en la sociedad secreta Oscuminati o jugar en el desequilibratorio. </a>
+                <a style="color: white; font-size:30px" id="info1"></a>
             </div>
         </div>
     </div>
     <script>
+        fetch("https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/content/oscuminar.txt")
+     .then(response => response.text())
+    .then(data => {
+        // Buscar todas las coincidencias con etiquetas personalizadas (/ini#clave ... /end)
+        let matches = [...data.matchAll(/\/ini#(\w+)\s(.*?)\/end/gs)];
+
+        if (matches.length > 0) {
+            matches.forEach(match => {
+                let clave = match[1]; // Nombre del identificador (ej. "titulo")
+                let contenido = match[2].trim(); // Contenido dentro del bloque
+                
+                // Insertar contenido en el elemento correspondiente si existe
+                let elemento = document.getElementById(clave);
+                if (elemento) {
+                    elemento.innerHTML = contenido;
+                }
+            });
+        }
+    })
+    .catch(error => console.error("Error de carga. <br>Porfavor recague la página presionando el boton ⟳ o la tecla F5.<br>Si el error persiste, intente de nuevo más tarde:", error));
         document.addEventListener("DOMContentLoaded", function() {
             let elements = document.querySelectorAll(".D2U");
             let observer = new IntersectionObserver(entries => {

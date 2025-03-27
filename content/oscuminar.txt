@@ -1,0 +1,5 @@
+/ini#info1
+Oscuminar: echar oscuridad para ver mejor. <br>Desde esa idea, los chicos y las chicas construyeron distintas salas de juego con la oscuridad como aliada. <br>
+En Oscuminar, los visitantes ingresan al interior de un volcán, a la panza de un monstruo o descienden por las capas tectónicas de la tierra debajo de las baldosas. <br>
+Incluso podían ser invitados a iniciarse en la sociedad secreta Oscuminati o jugar en el desequilibratorio.
+/end

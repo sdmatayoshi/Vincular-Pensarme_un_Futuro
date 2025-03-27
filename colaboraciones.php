@@ -102,7 +102,8 @@
                 z-index: 0 !important;
                 display: block !important;
             }
-/*linear-gradient(to bottom, rgba(228, 240, 235, 1) 0%, rgba(228, 240, 235, 0) 20%),*/
+
+            /*linear-gradient(to bottom, rgba(228, 240, 235, 1) 0%, rgba(228, 240, 235, 0) 20%),*/
 
 
             .navbar {
@@ -308,7 +309,7 @@
                 display: none !important;
             }
 
-            .has-text-align-center, 
+            .has-text-align-center,
             .wp-block-post-title,
             .wp-block-spacer {
                 display: none !important;
@@ -342,49 +343,64 @@
     <div class="has-bg-img image-container">
         <div class="content" style="color: #fff;">
             <div style="margin: 50px 50px 50px 50px;">
-                <h1 align="center" class="R2L" style="color: #fff;">Tu ayuda puede marcar la diferencia!</h1><br>
-                <h4 align="center" class="R2L" style="color: #fff;">En Vincular-Pensarme un Futuro buscamos ayudar a
-                    aquellos que lo necesiten y crear un mejor futuro para todos.</h4><br>
-                <h4 align="center" class="R2L" style="color: #fff;">En Vincular-Pensarme un Futuro creemos que la
-                    colaboracion de todos puede servir para forjar un mejor futuro, tanto para la gente a la que
-                    apoyamos, como para todos nosotros.<br> Aquí te ofrecemos varias formas en la que puedes participar
-                    de la causa.</h4><br><br>
-                <h1 align="center" class="R2L" style="color: #fff;">¿De qué formas puedo ayudar?</h1><br><br>
-                <h5 class="R2L" style="color: #fff;">Sé voluntario</h5><br>
-                <p class="R2L" style="color: #fff;">Podés sumarte como voluntario para realizar diversas tareas que
-                    apoyen tanto directa como indirectamente:</p><br>
+                <h1 align="center" class="R2L" style="color: #fff;" id="titulo1"></h1><br>
+                <h4 align="center" class="R2L" style="color: #fff;" id="detalles1"></h4><br>
+                <h4 align="center" class="R2L" style="color: #fff;" id="detalles2"></h4><br><br>
+                <h1 align="center" class="R2L" style="color: #fff;" id="titulo2"></h1><br><br>
+                <h5 class="R2L" style="color: #fff;" id="subtitulo1"></h5><br>
+                <p class="R2L" style="color: #fff;" id="detalles1"></p><br>
                 <ul>
-                    <li class="R2L">Realizar tareas administrativas o trámite.</li>
-                    <li class="R2L">Ayudar a preparar o transportar donaciones.</li>
-                    <li class="R2L">Buscar donantes de recursos.</li>
-                    <li class="R2L">Editar videos y/o colaborar en el armado de registros de nuestras acciones.</li>
-                    <li class="R2L">Realizar charlas</li>
+                    <li class="R2L" id="lista1"></li>
+                    <li class="R2L" id="lista2"></li>
+                    <li class="R2L" id="lista3"></li>
+                    <li class="R2L" id="lista4"></li>
+                    <li class="R2L" id="lista5"></li>
                 </ul>
                 <br><br>
-                <h5 class="R2L" style="color: #fff;">Doná</h5><br>
-                <p class="R2L">También puedes donar recursos de todo tipo, ya sean libros, material didáctico, de
+                <h5 class="R2L" style="color: #fff;" id="subtitulo2"></h5><br>
+                <p class="R2L" class="detalles3">También puedes donar recursos de todo tipo, ya sean libros, material didáctico, de
                     librería, de ferretería,
-                    computadoras, mobiliario, etc.</p><br>
-                <br>
-                <p class="R2L">Si prefieres colaborar realizando una pequeña donación monetaria podés realizar una
+                    computadoras, mobiliario, etc.<br><br>
+                    Si prefieres colaborar realizando una pequeña donación monetaria podés realizar una
                     donación a la cuenta bancaria de la asociación civil (ALIAS: vincular.futuro). En breve tendremos
-                    otras opciones para donar con tarjeta de crédito, tarjeta de débito o débito automático.</p><br>
-                <p class="R2L">Si tienes dudas o querés participar, puedes ponerte en contacto con nosotros por <a
-                         href="https://mail.google.com/mail/?view=cm&fs=1&to=vincular.futuro@gmail.com&su=Consulta:%20"
+                    otras opciones para donar con tarjeta de crédito, tarjeta de débito o débito automático.<br>
+                    Si tienes dudas o querés participar, puedes ponerte en contacto con nosotros por <a
+                        href="https://mail.google.com/mail/?view=cm&fs=1&to=vincular.futuro@gmail.com&su=Consulta:%20"
                         target="_blank" style="color: #fff;">email</a>. Si quieres informarte mas o queres participar
                     puedes contarnos un poco sobre vos y en qué tareas quieres/puedes colaborar.</p>
                 <br>
-                <p>Datos de contacto: </p><br>
+                <p id="subtitulo3"></p><br>
                 <ul>
-                    <li class="R2L">Gmail: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vincular.futuro@gmail.com" target="_blank">vincular.futuro@gmail.com</a></li><br><!--&su=Asunto:&body=Consulta:-->
-                    <li class="R2L">Teléfono: 11 4938-7750</li><br>
-                    <li class="R2L">Facebook: <a href="https://www.facebook.com/AsociacionVincular">Vincular-Pensarme un futuro</a></li>
+                    <li class="R2L" id="lista1b"></li><br><!--&su=Asunto:&body=Consulta:-->
+                    <li class="R2L" id="lista2b"></li><br>
+                    <li class="R2L" id="lista3b"></a></li>
                 </ul>
             </div>
         </div>
     </div>
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
+        fetch("https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/content/colaboraciones.txt")
+            .then(response => response.text())
+            .then(data => {
+                // Buscar todas las coincidencias con etiquetas personalizadas (/ini#clave ... /end)
+                let matches = [...data.matchAll(/\/ini#(\w+)\s(.*?)\/end/gs)];
+
+                if (matches.length > 0) {
+                    matches.forEach(match => {
+                        let clave = match[1]; // Nombre del identificador (ej. "titulo")
+                        let contenido = match[2].trim(); // Contenido dentro del bloque
+
+                        // Insertar contenido en el elemento correspondiente si existe
+                        let elemento = document.getElementById(clave);
+                        if (elemento) {
+                            elemento.innerHTML += contenido;
+                        }
+                    });
+                }
+            })
+            .catch(error => console.error("Error de carga. <br>Porfavor recague la página presionando el boton ⟳ o la tecla F5.<br>Si el error persiste, intente de nuevo más tarde:", error));
+
+        document.addEventListener("DOMContentLoaded", function() {
             let elements = document.querySelectorAll(".D2U");
             let observer = new IntersectionObserver(entries => {
                 entries.forEach(entry => {
@@ -392,10 +408,12 @@
                         entry.target.classList.add("D2Uv");
                     }
                 });
-            }, { threshold: 0.5 });
+            }, {
+                threshold: 0.5
+            });
             elements.forEach(element => observer.observe(element));
         });
-        document.addEventListener("DOMContentLoaded", function () {
+        document.addEventListener("DOMContentLoaded", function() {
             let elements = document.querySelectorAll(".U2D");
             let observer = new IntersectionObserver(entries => {
                 entries.forEach(entry => {
@@ -403,10 +421,12 @@
                         entry.target.classList.add("U2Dv");
                     }
                 });
-            }, { threshold: 0.5 });
+            }, {
+                threshold: 0.5
+            });
             elements.forEach(element => observer.observe(element));
         });
-        document.addEventListener("DOMContentLoaded", function () {
+        document.addEventListener("DOMContentLoaded", function() {
             let elements = document.querySelectorAll(".R2L");
             let observer = new IntersectionObserver(entries => {
                 entries.forEach(entry => {
@@ -414,11 +434,13 @@
                         entry.target.classList.add("R2Lv");
                     }
                 });
-            }, { threshold: 0.5 });
+            }, {
+                threshold: 0.5
+            });
 
             elements.forEach(element => observer.observe(element));
         });
-        document.addEventListener("DOMContentLoaded", function () {
+        document.addEventListener("DOMContentLoaded", function() {
             let elements = document.querySelectorAll(".L2R");
             let observer = new IntersectionObserver(entries => {
                 entries.forEach(entry => {
@@ -426,11 +448,13 @@
                         entry.target.classList.add("L2Rv");
                     }
                 });
-            }, { threshold: 0.5 });
+            }, {
+                threshold: 0.5
+            });
 
             elements.forEach(element => observer.observe(element));
         });
-        document.addEventListener("DOMContentLoaded", function () {
+        document.addEventListener("DOMContentLoaded", function() {
             let elements = document.querySelectorAll(".HDN");
             let observer = new IntersectionObserver(entries => {
                 entries.forEach(entry => {
@@ -438,7 +462,9 @@
                         entry.target.classList.add("VSBL");
                     }
                 });
-            }, { threshold: 0.7 });
+            }, {
+                threshold: 0.7
+            });
 
             elements.forEach(element => observer.observe(element));
         });

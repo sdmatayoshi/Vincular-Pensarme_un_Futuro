@@ -1,0 +1,11 @@
+/ini#titulo1
+Nuestra Tarea
+/end
+
+/ini#contenido1
+Diseñamos, implementamos y promovemos experiencias relacionadas con las artes y las ciencias como gesto educativo de acceso a la cultura en territorios de alta criticidad social. Una apuesta al futuro para las nuevas generaciones.
+<br>
+Nuestras propuestas, encuadradas en el desarrollo humano, persiguen un triple impacto: social, educativo y cultural.
+<br>
+Para llevar adelante estos objetivos, trabajamos bajo la modalidad de gestión asociada en articulación con instituciones públicas -privadas y estatales- que comparten el espíritu y los valores de nuestra propuesta.
+/end

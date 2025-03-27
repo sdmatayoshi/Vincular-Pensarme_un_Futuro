@@ -343,37 +343,53 @@
     <div class="has-bg-img">
         <div class="content" style="margin-top: 3vw;">
             <div class="R2L" style="text-align: left; width: 75%; margin-left: 5vw; margin-top: 50px;">
-                <h1>Te contamos</h1><br><br>
-                <h2>¿Quiénes somos?</h2><br>
-                <p style="font-size: 1.5vw;">
-                    Somos una Asociación Civil sin fines de lucro, que trabaja desde el año 201 1 en la 
-                    promoción de derechos y en la construcción de ciudadanía junto a niños, niñas y adolescentes.
-                    Nuestro equipo está conformado por profesionales de diferentes disciplinas, 
-                    con una amplia trayectoria en el trabajo con infancias y adolescencias.</p><br><br>
-                <h2>¿Quienes conforman a Vincular-Pensarme un Futuro?</h2><br><br>
-                <h3>Autoridades vigentes 2023-2025:</h3><br>
+                <h1 id="titulo1"></h1><br><br>
+                <h2 id="subtitulo1"></h2><br>
+                <p style="font-size: 1.5vw;" id="detalles1"></p><br><br>
+                <h2 id="subtitulo2"></h2><br><br>
+                <h3 id="subsubtitulo1"></h3><br>
                 <ul>
-                    <li>Daniel Musikant – Presidente</li><br>
-                    <li>Diego Junovich – Vicepresidente</li><br>
-                    <li>Germán Zlatkes – Secretario</li><br>
-                    <li>Johanna Zlatkes – Prosecretaria</li><br>
-                    <li>Lelia Adissi – Tesorera</li><br>
-                    <li>Johanna Higa – Protesorera</li><br>
-                    <li>Romina Higa – Vocal titular</li><br>
-                    <li>Luciana Piantanida – Vocal titular</li><br>
-                    <li>Victoria Tolmasky – vocal suplente</li><br>
-                    <li>Sergio Musikant – Vocal suplente</li><br>
+                    <li id="lista1"></li><br>
+                    <li id="lista2"></li><br>
+                    <li id="lista3"></li><br>
+                    <li id="lista4"></li><br>
+                    <li id="lista5"></li><br>
+                    <li id="lista6"></li><br>
+                    <li id="lista7"></li><br>
+                    <li id="lista8"></li><br>
+                    <li id="lista9"></li><br>
+                    <li id="lista10"></li><br>
                 </ul>
-                <h3>Comisión revisora de cuentas:</h3><br>
+                <h3 id="subsubtitulo2"></h3><br>
                 <ul>
-                    <li>Pablo Lutenberg</li><br>
-                    <li>Esteban Rotman</li><br>
+                    <li id="lista1b"></li><br>
+                    <li id="lista2b"></li><br>
                 </ul>
             </div>
 
         </div>
     </div>
     <script>
+        fetch("https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/content/quienesSomos.txt")
+     .then(response => response.text())
+    .then(data => {
+        // Buscar todas las coincidencias con etiquetas personalizadas (/ini#clave ... /end)
+        let matches = [...data.matchAll(/\/ini#(\w+)\s(.*?)\/end/gs)];
+
+        if (matches.length > 0) {
+            matches.forEach(match => {
+                let clave = match[1]; // Nombre del identificador (ej. "titulo")
+                let contenido = match[2].trim(); // Contenido dentro del bloque
+                
+                // Insertar contenido en el elemento correspondiente si existe
+                let elemento = document.getElementById(clave);
+                if (elemento) {
+                    elemento.innerHTML = contenido;
+                }
+            });
+        }
+    })
+    .catch(error => console.error("Error de carga. <br>Porfavor recague la página presionando el boton ⟳ o la tecla F5.<br>Si el error persiste, intente de nuevo más tarde:", error));
         document.addEventListener("DOMContentLoaded", function() {
             let elements = document.querySelectorAll(".D2U");
             let observer = new IntersectionObserver(entries => {

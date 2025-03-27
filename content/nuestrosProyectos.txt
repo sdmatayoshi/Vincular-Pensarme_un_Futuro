@@ -1,0 +1,51 @@
+/ini#titulo1
+Nuestros Proyectos
+/end
+
+/ini#subtitulo1
+Proyectos educativos integrales
+/end
+
+/ini#lista1
+Proyecto “El Parque de la Estación: un lugar pensado desde y para los chicos del barrio”. Junto a la Asociación Civil Vecinos por el Parque de la Estación, Comuna 3.
+/end
+
+/ini#lista2
+Acompañamiento a Proyectos Educativos Bianuales del Programa Casas de los Niños, Niñas y Adolescentes – GCBA.
+/end
+
+/ini#lista3
+Talleres de acompañamiento a las trayectorias escolares primarias, secundarias, terciarias y universita rias, en articulación con diferentes instituciones educativas.
+/end
+
+/ini#subtitulo2
+Género, promoción y cuidado de la salud
+/end
+
+/ini#lista1b
+Mitos y verdades acerca del Dengue” junto a organizaciones de la comunidad del Barrio 21-24 de Barracas y extensión universitaria Facultad de Ciencias Exactas y Naturales-UBA.
+/end
+
+/ini#lista2b
+Talleres de fortalecimiento de las redes comunitarias para el acceso a la salud de niñas, niños y adolescentes. Vacunación, controles pediátricos y hebiátricos.
+/end
+
+/ini#lista3b
+Talleres de acompañamiento al embarazo adolescente y a la crianza durante la primera infancia.
+/end
+
+/ini#lista4b
+Talleres de Educación Sexual Integral y Reproductiva.
+/end
+
+/ini#subtitulo3
+Cuidado del medio ambiente y formación ambiental
+/end
+
+/ini#lista1c
+Huerta comunitaria y cuidado de la naturaleza” Junto al Cesac NO 9 y Red Barrial – Boca-Barracas.
+/end
+
+/ini#lista2c
+Hacia el cuidado de nuestro Riachuelo” junto a niños, niñas, adolescentes y familias del Barrio 21-24 Barracas, ACUMAR, Antigua Barraca Peña, Instituto de Arqueología-FFyL UBA, Área de Extensión de la Facultad de Ciencias Exactas y Naturales UBA , Dir. Gral. Patrimonio de la Ciudad GCBA.
+/end
