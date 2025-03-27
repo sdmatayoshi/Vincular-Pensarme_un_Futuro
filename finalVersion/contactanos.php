@@ -81,8 +81,10 @@
                 position: relative;
                 width: 100%;
                 min-height: 100vh;
+                text-align: center;
                 display: flex;
                 flex-direction: column;
+                align-items: center;
                 padding-top: 0;
             }
 
@@ -92,15 +94,16 @@
                 top: 0;
                 left: 0;
                 min-width: 100%;
-                min-height: 100%;
-                background:
-                    linear-gradient(to top, rgba(228, 240, 235, 1) 0%, rgba(228, 240, 235, 0) 20%),
-                    url(https://vincular.org.ar/wp-content/uploads/2025/02/Copia-de-11-leyendo-.jpg);
+                min-height: 100vh;
+                background: linear-gradient(to top, rgba(228, 240, 235, 1) 0%, rgba(228, 240, 235, 0) 20%),
+                    url(https://vincular.org.ar/wp-content/uploads/2024/10/snapedit_1736299645183-1.png);
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;
+                opacity: 0.7 !important;
                 z-index: 0 !important;
                 display: block !important;
+                filter: brightness(50%);
             }
 
             /*linear-gradient(to bottom, rgba(228, 240, 235, 1) 0%, rgba(228, 240, 235, 0) 20%),*/
@@ -240,13 +243,11 @@
             }
 
             .content {
-                background-color: #728573;
-                max-width: 50%;
+                background-color: #e4f0eb;
+                max-width: 75%;
                 height: 200%;
                 display: inline-block;
                 z-index: 1;
-                float: left;
-                color: #fff;
             }
 
 
@@ -320,7 +321,7 @@
 </head>
 
 <body>
-    <div class="navbar">
+<div class="navbar">
         <ul class="menu">
             <li class="logo"> <a href="https://vincular.org.ar"><img class="HDN"
                         src="https://vincular.org.ar/wp-content/uploads/2024/10/logo-3.png" style="height: 75px;"></a>
@@ -335,51 +336,35 @@
                     <li><a class="und" href="https://vincular.org.ar/red-solidaria-vincularnos/">Red Solidaria "Vincularnos"</a></li>
                 </ul>
             </li>
-            <li><a class="und D2U" href="https://vincular.org.ar/contactanos/">Contáctanos</a></li>
-            <li><a class="und D2U" style="text-decoration: underline; color:rgba(50, 50, 50, 1); cursor: pointer">Participar</a></li>
+            <li><a class="und D2U" style="text-decoration: underline; color:rgba(50, 50, 50, 1); cursor: pointer">Contáctanos</a></li>
+            <li><a class="und D2U" href="https://vincular.org.ar/participar/">Participar</a></li>
             <li><a class="und D2U" href="https://vincular.org.ar/galeria-de-fotos/">Galería</a></li>
         </ul>
     </div>
-    <div class="has-bg-img image-container">
-        <div class="content" style="color: #fff;">
-            <div style="margin: 50px 50px 50px 50px;">
-                <h1 align="center" class="R2L" style="color: #fff;" id="titulo1"></h1><br>
-                <h4 align="center" class="R2L" style="color: #fff;" id="detalles1"></h4><br>
-                <h4 align="center" class="R2L" style="color: #fff;" id="detalles2"></h4><br><br>
-                <h1 align="center" class="R2L" style="color: #fff;" id="titulo2"></h1><br><br>
-                <h5 class="R2L" style="color: #fff;" id="subtitulo1"></h5><br>
-                <p class="R2L" style="color: #fff;" id="detalles1"></p><br>
-                <ul>
-                    <li class="R2L" id="lista1"></li>
-                    <li class="R2L" id="lista2"></li>
-                    <li class="R2L" id="lista3"></li>
-                    <li class="R2L" id="lista4"></li>
-                    <li class="R2L" id="lista5"></li>
-                </ul>
-                <br><br>
-                <h5 class="R2L" style="color: #fff;" id="subtitulo2"></h5><br>
-                <p class="R2L" class="detalles3">También puedes donar recursos de todo tipo, ya sean libros, material didáctico, de
-                    librería, de ferretería,
-                    computadoras, mobiliario, etc.<br><br>
-                    Si prefieres colaborar realizando una pequeña donación monetaria podés realizar una
-                    donación a la cuenta bancaria de la asociación civil (ALIAS: vincular.futuro). En breve tendremos
-                    otras opciones para donar con tarjeta de crédito, tarjeta de débito o débito automático.<br>
-                    Si tienes dudas o querés participar, puedes ponerte en contacto con nosotros por <a
-                        href="https://mail.google.com/mail/?view=cm&fs=1&to=vincular.futuro@gmail.com&su=Consulta:%20"
-                        target="_blank" style="color: #fff;">email</a>. Si quieres informarte mas o queres participar
-                    puedes contarnos un poco sobre vos y en qué tareas quieres/puedes colaborar.</p>
-                <br>
-                <p id="subtitulo3"></p><br>
-                <ul>
-                    <li class="R2L" id="lista1b"></li><br><!--&su=Asunto:&body=Consulta:-->
-                    <li class="R2L" id="lista2b"></li><br>
-                    <li class="R2L" id="lista3b"></a></li>
-                </ul>
+    <div class="has-bg-img">
+        <div style="margin-top: 3vw;">
+            <div style="background-color: #e4f0eb; display:inline-block; position: relative;margin-right: 5vw">
+                <div class="R2L" style="text-align: left;  margin-top: 1vw; margin-left: 1vw; margin-right: 1vw; margin-bottom: 1vw; ">
+                    <img class="HDN"
+                        src="https://vincular.org.ar/wp-content/uploads/2025/02/datos-contacto-negocio-1.webp" style="height: 400px;">
+                </div>
+            </div>
+            <div style="background-color: #e4f0eb; display:inline-block; position: relative; z-index: 1; min-height:250px">
+
+                <div class="R2L" style="text-align: left; margin-top: 5vw; margin-left: 5vw; margin-right: 5vw; margin-bottom: 5vw; margin-top: 50px;">
+                    <h1 id="titulo1"></h1><br><br>
+                    <h2 id="subtitulo1"></h2><br>
+                    <ul>
+                    <li class="R2L"></li><br>
+                    <li class="R2L"></li><br>
+                    <li class="R2L"></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
     <script>
-        fetch("https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/content/colaboraciones.txt")
+        fetch("https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/content/contactanos.txt")
             .then(response => response.text())
             .then(data => {
                 // Buscar todas las coincidencias con etiquetas personalizadas (/ini#clave ... /end)
@@ -399,7 +384,6 @@
                 }
             })
             .catch(error => console.error("Error de carga. <br>Porfavor recague la página presionando el boton ⟳ o la tecla F5.<br>Si el error persiste, intente de nuevo más tarde:", error));
-
         document.addEventListener("DOMContentLoaded", function() {
             let elements = document.querySelectorAll(".D2U");
             let observer = new IntersectionObserver(entries => {

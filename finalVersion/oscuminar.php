@@ -81,8 +81,10 @@
                 position: relative;
                 width: 100%;
                 min-height: 100vh;
+                text-align: center;
                 display: flex;
                 flex-direction: column;
+                align-items: center;
                 padding-top: 0;
             }
 
@@ -92,13 +94,13 @@
                 top: 0;
                 left: 0;
                 min-width: 100%;
-                min-height: 100%;
-                background:
-                    linear-gradient(to top, rgba(228, 240, 235, 1) 0%, rgba(228, 240, 235, 0) 20%),
-                    url(https://vincular.org.ar/wp-content/uploads/2025/02/Copia-de-11-leyendo-.jpg);
+                min-height: 100vh;
+                background: linear-gradient(to top, rgba(228, 240, 235, 1) 0%, rgba(228, 240, 235, 0) 20%),
+                    url(https://vincular.org.ar/wp-content/uploads/2025/03/oscuminar.png);
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;
+                opacity: 0.7 !important;
                 z-index: 0 !important;
                 display: block !important;
             }
@@ -240,13 +242,11 @@
             }
 
             .content {
-                background-color: #728573;
-                max-width: 50%;
+                background-color: #202020;
+                max-width: 90%;
                 height: 200%;
-                display: inline-block;
                 z-index: 1;
-                float: left;
-                color: #fff;
+                margin-top: 3vw;
             }
 
 
@@ -320,7 +320,7 @@
 </head>
 
 <body>
-    <div class="navbar">
+<div class="navbar">
         <ul class="menu">
             <li class="logo"> <a href="https://vincular.org.ar"><img class="HDN"
                         src="https://vincular.org.ar/wp-content/uploads/2024/10/logo-3.png" style="height: 75px;"></a>
@@ -336,70 +336,39 @@
                 </ul>
             </li>
             <li><a class="und D2U" href="https://vincular.org.ar/contactanos/">Contáctanos</a></li>
-            <li><a class="und D2U" style="text-decoration: underline; color:rgba(50, 50, 50, 1); cursor: pointer">Participar</a></li>
+            <li><a class="und D2U" href="https://vincular.org.ar/participar/">Participar</a></li>
             <li><a class="und D2U" href="https://vincular.org.ar/galeria-de-fotos/">Galería</a></li>
         </ul>
     </div>
-    <div class="has-bg-img image-container">
-        <div class="content" style="color: #fff;">
-            <div style="margin: 50px 50px 50px 50px;">
-                <h1 align="center" class="R2L" style="color: #fff;" id="titulo1"></h1><br>
-                <h4 align="center" class="R2L" style="color: #fff;" id="detalles1"></h4><br>
-                <h4 align="center" class="R2L" style="color: #fff;" id="detalles2"></h4><br><br>
-                <h1 align="center" class="R2L" style="color: #fff;" id="titulo2"></h1><br><br>
-                <h5 class="R2L" style="color: #fff;" id="subtitulo1"></h5><br>
-                <p class="R2L" style="color: #fff;" id="detalles1"></p><br>
-                <ul>
-                    <li class="R2L" id="lista1"></li>
-                    <li class="R2L" id="lista2"></li>
-                    <li class="R2L" id="lista3"></li>
-                    <li class="R2L" id="lista4"></li>
-                    <li class="R2L" id="lista5"></li>
-                </ul>
-                <br><br>
-                <h5 class="R2L" style="color: #fff;" id="subtitulo2"></h5><br>
-                <p class="R2L" class="detalles3">También puedes donar recursos de todo tipo, ya sean libros, material didáctico, de
-                    librería, de ferretería,
-                    computadoras, mobiliario, etc.<br><br>
-                    Si prefieres colaborar realizando una pequeña donación monetaria podés realizar una
-                    donación a la cuenta bancaria de la asociación civil (ALIAS: vincular.futuro). En breve tendremos
-                    otras opciones para donar con tarjeta de crédito, tarjeta de débito o débito automático.<br>
-                    Si tienes dudas o querés participar, puedes ponerte en contacto con nosotros por <a
-                        href="https://mail.google.com/mail/?view=cm&fs=1&to=vincular.futuro@gmail.com&su=Consulta:%20"
-                        target="_blank" style="color: #fff;">email</a>. Si quieres informarte mas o queres participar
-                    puedes contarnos un poco sobre vos y en qué tareas quieres/puedes colaborar.</p>
-                <br>
-                <p id="subtitulo3"></p><br>
-                <ul>
-                    <li class="R2L" id="lista1b"></li><br><!--&su=Asunto:&body=Consulta:-->
-                    <li class="R2L" id="lista2b"></li><br>
-                    <li class="R2L" id="lista3b"></a></li>
-                </ul>
+    <div class="has-bg-img">
+        <div class="content">
+            <div class="R2L" style="text-align: center; width: 1000px; margin-top: 50px;">
+                <center><img src="img/osc.jpg" alt="" style="height:100px;"></center>
+                <a style="color: white; font-size:30px" id="info1"></a>
             </div>
         </div>
     </div>
     <script>
-        fetch("https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/content/colaboraciones.txt")
-            .then(response => response.text())
-            .then(data => {
-                // Buscar todas las coincidencias con etiquetas personalizadas (/ini#clave ... /end)
-                let matches = [...data.matchAll(/\/ini#(\w+)\s(.*?)\/end/gs)];
+        fetch("https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/content/oscuminar.txt")
+     .then(response => response.text())
+    .then(data => {
+        // Buscar todas las coincidencias con etiquetas personalizadas (/ini#clave ... /end)
+        let matches = [...data.matchAll(/\/ini#(\w+)\s(.*?)\/end/gs)];
 
-                if (matches.length > 0) {
-                    matches.forEach(match => {
-                        let clave = match[1]; // Nombre del identificador (ej. "titulo")
-                        let contenido = match[2].trim(); // Contenido dentro del bloque
-
-                        // Insertar contenido en el elemento correspondiente si existe
-                        let elemento = document.getElementById(clave);
-                        if (elemento) {
-                            elemento.innerHTML += contenido;
-                        }
-                    });
+        if (matches.length > 0) {
+            matches.forEach(match => {
+                let clave = match[1]; // Nombre del identificador (ej. "titulo")
+                let contenido = match[2].trim(); // Contenido dentro del bloque
+                
+                // Insertar contenido en el elemento correspondiente si existe
+                let elemento = document.getElementById(clave);
+                if (elemento) {
+                    elemento.innerHTML = contenido;
                 }
-            })
-            .catch(error => console.error("Error de carga. <br>Porfavor recague la página presionando el boton ⟳ o la tecla F5.<br>Si el error persiste, intente de nuevo más tarde:", error));
-
+            });
+        }
+    })
+    .catch(error => console.error("Error de carga. <br>Porfavor recague la página presionando el boton ⟳ o la tecla F5.<br>Si el error persiste, intente de nuevo más tarde:", error));
         document.addEventListener("DOMContentLoaded", function() {
             let elements = document.querySelectorAll(".D2U");
             let observer = new IntersectionObserver(entries => {
