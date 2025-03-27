@@ -2,7 +2,7 @@
 Un poco sobre nosotros
 /end
 
-/ini#subtitulo
+/ini#subtitulo1
 ¿Qué es Vincular-Pensarme un Futuro?
 /end
 
