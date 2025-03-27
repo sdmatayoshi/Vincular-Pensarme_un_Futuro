@@ -343,8 +343,8 @@
     <div class="has-bg-img">
         <div class="content">
             <div class="R2L" style="text-align: center; width: 1000px; margin-top: 50px;">
-                <center><img src="img/osc.jpg" alt="" style="height:100px;"></center>
-                <a style="color: white; font-size:30px" id="info1"></a>
+                <center><img src="https://vincular.org.ar/wp-content/uploads/2025/03/osc.jpg" alt="" style="height:100px;"></center>
+                <p style="color: white; font-size:30px" id="info1"></p>
             </div>
         </div>
     </div>
