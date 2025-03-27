@@ -5,5 +5,5 @@
 - Los cambios realizados tardan entre 1 a 5 minutos en actualizarse.<br>
 - aún no se puede añadir mas secciones de las que ya hay (si hay un /ini#titulo1 y se quiere agregar un #titulo2, no se puede)
 
-#Video de ejemplo
+#Video de ejemplo<br>
 ![ejemplo](https://github.com/user-attachments/assets/8cb546e1-6c3c-43ad-ab92-f9152c96f0c8)
