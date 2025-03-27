@@ -1,0 +1,31 @@
+/ini#titulo1
+Tu ayuda puede marcar la diferencia!
+/end
+  
+/ini#detalles1
+En Vincular-Pensarme un Futuro buscamos ayudar a aquellos que lo necesiten y crear un mejor futuro para todos.
+/end
+
+/ini#detalles2
+En Vincular-Pensarme un Futuro creemos que la colaboracion de todos puede servir para forjar un mejor futuro, tanto para la gente a la que apoyamos, como para todos nosotros.<br> Aquí te ofrecemos varias formas en la que puedes participar de la causa.
+/end
+
+/ini#titulo2
+¿De qué formas puedo ayudar?
+/end
+
+/ini#subtitulo1
+Sé voluntario
+/end
+
+/ini#detalles1
+Podés sumarte como voluntario para realizar diversas tareas que apoyen tanto directa como indirectamente:
+/end
+
+/ini#lista1
+                    <li class="R2L">Realizar tareas administrativas o trámite.</li>
+                    <li class="R2L">Ayudar a preparar o transportar donaciones.</li>
+                    <li class="R2L">Buscar donantes de recursos.</li>
+                    <li class="R2L">Editar videos y/o colaborar en el armado de registros de nuestras acciones.</li>
+                    <li class="R2L">Realizar charlas</li>
+/end
