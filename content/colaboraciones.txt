@@ -46,18 +46,7 @@ Realizar charlas
 Doná
 /end
 
-/ini#detalles3
-También puedes donar recursos de todo tipo, ya sean libros, material didáctico, de
-                    librería, de ferretería,
-                    computadoras, mobiliario, etc.<br><br>
-                    Si prefieres colaborar realizando una pequeña donación monetaria podés realizar una
-                    donación a la cuenta bancaria de la asociación civil (ALIAS: vincular.futuro). En breve tendremos
-                    otras opciones para donar con tarjeta de crédito, tarjeta de débito o débito automático.<br>
-                    Si tienes dudas o querés participar, puedes ponerte en contacto con nosotros por <a
-                        href="https://mail.google.com/mail/?view=cm&fs=1&to=vincular.futuro@gmail.com&su=Consulta:%20"
-                        target="_blank" style="color: #fff;">email</a>. Si quieres informarte mas o queres participar
-                    puedes contarnos un poco sobre vos y en qué tareas quieres/puedes colaborar.
-/end
+
 
 /ini#subtitulo3
 Datos de contacto: 
