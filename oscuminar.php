@@ -348,13 +348,13 @@
                 <img src="img/GESTION_10.jpg" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block">
                 <img src="img/GESTION_09.jpg" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block"><br>
                 <p style="color: white; font-size:30px; margin-left:50px; margin-right:50px; text-align: right" id="info2"></p><br>
-                <img src="img/GESTION_04.jpg" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block">
-                <img src="img/GESTION_07.jpg" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block"><br>
+                <img src="img/GESTION_07.jpg" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block">
+                <img src="img/GESTION_11.jpg" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block">
+                <img src="img/GESTION_12.jpg" alt="" style="width:50%; height:250px; object-fit:cover; display:inline-block"><br>
                 <p style="color: white; font-size:30px; margin-left:50px; margin-right:50px; text-align: left" id="info3"></p><br>
                 <img src="img/GESTION_01.jpg" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block">
-                <img src="img/GESTION_11.jpg" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block">
-                <img src="img/GESTION_12.jpg" alt="" style="width:50%; height:250px; object-fit:cover; display:inline-block">
-
+                <img src="img/GESTION_04.jpg" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block">
+                <br>
                 <br>
             </div>
         </div>

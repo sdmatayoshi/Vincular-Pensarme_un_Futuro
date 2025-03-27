@@ -3,6 +3,7 @@ Oscuminar: echar oscuridad para ver mejor. <br>Desde esa idea, los chicos y las 
 /end
 /ini#info2
 En Oscuminar, los visitantes ingresan al interior de un volcán, a la panza de un monstruo o descienden por las capas tectónicas de la tierra debajo de las baldosas.
+/end
 /ini#info3
 Incluso podían ser invitados a iniciarse en la sociedad secreta Oscuminati o jugar en el desequilibratorio.
 /end
