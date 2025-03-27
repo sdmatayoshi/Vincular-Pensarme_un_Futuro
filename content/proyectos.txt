@@ -3,9 +3,9 @@ Proyectos
 /end
 
 /ini#subtitulo1
-Proyectos en curso
+Proyectos en curso<br>
 /end
 
 /ini#subtitulo2
-Proyectos anteriores
+Proyectos anteriores<br>
 /end
