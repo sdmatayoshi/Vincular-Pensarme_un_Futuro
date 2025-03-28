@@ -347,9 +347,9 @@
                 <p style="color: white; font-size:30px; margin-left:50px; margin-right:50px; text-align: left" id="info1"></p><br><br>
                 <img src="https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/img/v1.jpg" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block"><br>
                 <p style="color: white; font-size:30px; margin-left:50px; margin-right:50px; text-align: right" id="info2"></p><br>
-                <img src="https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/img/v2.jpg" alt="" style="width:50%; height:250px; object-fit:cover; display:inline-block"><br>
+                <img src="https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/img/v3.jpg" alt="" style="width:50%; height:250px; object-fit:cover; display:inline-block"><br>
                 <p style="color: white; font-size:30px; margin-left:50px; margin-right:50px; text-align: left" id="info3"></p><br>
-                <img src="https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/img/v3.jpg" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block">
+                <img src="https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/img/v2.jpg" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block">
                 <br>
                 <br>
             </div>
