@@ -481,7 +481,7 @@
                 <a href="https://vincular.org.ar/colapso-temporal/"><div class="coltemp"></div></a><br>
                 <a href="https://vincular.org.ar/oscuminar-2/"><div class="osc"></div></a><br>
                 <a href="https://vincular.org.ar/espacios-extraordinarios/"><div class="espex"></div></a><br>
-                <a href="#"><div class="consturb"></div></a><br>
+                <a href="https://vincular.org.ar/constelaciones-urbanas/"><div class="consturb"></div></a><br>
                 <a href="#"><div class="via">Viajes</div></a><br>
                 <a href="https://vincular.org.ar/revuelo-2/"><div class="rev"></div></a>
             <br><br></div>
