@@ -96,7 +96,7 @@
                 min-width: 100%;
                 min-height: 100vh;
                 background: linear-gradient(to top, rgba(228, 240, 235, 1) 0%, rgba(228, 240, 235, 0) 20%),
-                    url(https://vincular.org.ar/wp-content/uploads/2025/03/oscuminar.png);
+                    url(https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/img/revuelo_06.JPG);
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;

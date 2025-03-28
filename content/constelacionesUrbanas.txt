@@ -1,0 +1,9 @@
+/ini#info1
+Recorridos ciudadanos investigando y descubriendo los lugares favoritos de los chicos y las chicas.
+/end
+/ini#info2
+Mapeamos esos lugares y los definió, tal como si fueran estrellas, con una constelación nueva que, en vez de estar en el cielo se hallaba sobre la traza urbana.
+/end
+/ini#info3
+Luego, cada constelación se transformó en un juego. 
+/end
