@@ -1,0 +1,10 @@
+/ini#info1
+Proyecto viajes<br>
+Desde la perspectiva educativa y de inclusión, desarrollamos el proyecto Viajes, centrado en brindar la posibilidad a los chicos y las chicas de realizar una experiencia de salida de la ciudad y los barrios, siempre en el marco de un proyecto cultural.
+/end
+/ini#info2
+ De este modo, hemos acompañado la realización de viajes al Tríptico de la infancia en Rosario y otros destinos.
+/end
+/ini#info3
+
+/end
