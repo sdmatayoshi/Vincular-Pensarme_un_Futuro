@@ -343,7 +343,7 @@
     <div class="has-bg-img">
         <div class="content" style="margin-top: 3vw;">
             <div class="R2L" style="text-align: left; width: 75%; margin-left: 5vw; margin-top: 50px;">
-                <h1 id="aviso">⚠ Esta sección se encuentra en desarrollo.</h1><br><br>
+                <h1 id="aviso"></h1><br><br>
             </div>
         </div>
     </div>
