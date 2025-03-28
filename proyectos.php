@@ -486,7 +486,6 @@
                 <a href="#"><div class="via">Viajes</div></a><br>
                 <a href="#"><div class="rev">Revuelo</div></a>
             <br><br></div>
-
         </div>
     </div>
     <script>

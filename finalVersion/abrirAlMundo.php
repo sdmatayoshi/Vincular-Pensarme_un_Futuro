@@ -96,7 +96,7 @@
                 min-width: 100%;
                 min-height: 100vh;
                 background: linear-gradient(to top, rgba(228, 240, 235, 1) 0%, rgba(228, 240, 235, 0) 20%),
-                    url(https://vincular.org.ar/wp-content/uploads/2024/10/snapedit_1736299645183-1.png);
+                    url(https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/img/revuelo_06.JPG);
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;
@@ -242,11 +242,11 @@
             }
 
             .content {
-                background-color: #e4f0eb;
-                max-width: 75%;
+                background-color: #202020;
+                max-width: 90%;
                 height: 200%;
-                display: inline-block;
                 z-index: 1;
+                margin-top: 3vw;
             }
 
 
@@ -316,137 +316,6 @@
                 height: 0 !important;
                 width: 0 !important;
             }
-            .coltemp{
-                background-image: url('https://vincular.org.ar/wp-content/uploads/2025/03/cticon.jpg');
-                text-align: center;
-                background-size:cover;
-                background-repeat: no-repeat;
-                height: 100px;
-                width: 400px;
-                border-radius: 50px;
-                background-position: 0px -25px;
-            }
-            .coltemp:hover{
-                background-size:cover;
-                background-repeat: no-repeat;
-                height: 100px;
-                width: 400px;
-                border-radius: 50px;
-                filter: brightness(200%);
-            }
-            .osc{
-                background-image: url('https://vincular.org.ar/wp-content/uploads/2025/03/osc_2.jpg');
-                background-size:cover;
-                background-repeat: no-repeat;
-                height: 100px;
-                width: 400px;
-                border-radius: 50px;
-            }
-            .osc:hover{
-                background-position: -401px 0px;
-            }
-            .espex{
-                background-image: url('https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/img/eeicon.jpg');
-                background-size:cover;
-                background-repeat: no-repeat;
-                height: 100px;
-                width: 400px;
-                border-radius: 50px;
-            }
-            .espex:hover{
-                background-size:cover;
-                background-repeat: no-repeat;
-                height: 100px;
-                width: 400px;
-                border-radius: 50px;
-                filter: brightness(200%);
-                
-            }
-            .consturb{
-                background-image: url('https://vincular.org.ar/wp-content/uploads/2025/03/cons.jpg');
-                background-size:cover;
-                background-repeat: no-repeat;
-                height: 100px;
-                width: 400px;
-                border-radius: 50px;
-                background-position: 0px -50px;
-            }
-            .consturb:hover{
-                filter: brightness(75%);
-                background-size:cover;
-                background-repeat: no-repeat;
-                height: 100px;
-                width: 400px;
-                border-radius: 50px;
-            }
-            .via{
-                background-image: url(https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/img/vicon.jpg);
-                text-align: center;
-                background-size:cover;
-                background-repeat: no-repeat;
-                height: 100px;
-                width: 400px;
-                border-radius: 50px;
-                background-position: 0px -25px;
-            }
-            .via:hover{
-                background-size:cover;
-                background-repeat: no-repeat;
-                height: 100px;
-                width: 400px;
-                border-radius: 50px;
-                filter: brightness(80%);
-            }
-            .rev{
-                background-image: url(https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/img/revuelo.png);
-                text-align: center;
-                background-size:cover;
-                background-repeat: no-repeat;
-                height: 100px;
-                width: 400px;
-                border-radius: 50px;
-            }
-            .rev:hover{
-                filter: brightness(80%);
-                background-size:cover;
-                background-repeat: no-repeat;
-                height: 100px;
-                width: 400px;
-                border-radius: 50px;
-            }
-            .aam{
-                background-image: url(https://vincular.org.ar/wp-content/uploads/2025/03/AAM.png);
-                background-repeat: no-repeat;
-                background-size: 100%;
-                height: 100px;
-                width: 400px;
-                border-radius: 50px;
-            }
-            .aam:hover{
-                filter: brightness(75%);
-                background-size: 100%;
-                background-repeat: no-repeat;
-                height: 100px;
-                width: 400px;
-                border-radius: 50px;
-            }
-            .rdt{
-                background-image: url(https://vincular.org.ar/wp-content/uploads/2025/03/rdt_v2.jpg);
-                text-align: center;
-                background-size: cover;
-                background-repeat: no-repeat;
-                height: 100px;
-                width: 400px;
-                border-radius: 50px;
-            }
-            .rdt:hover{
-                filter: brightness(50%);
-                background-size:cover;
-                background-repeat: no-repeat;
-                height: 100px;
-                width: 400px;
-                border-radius: 50px;
-            }
         </style>
 </head>
 
@@ -472,25 +341,26 @@
         </ul>
     </div>
     <div class="has-bg-img">
-        <div class="content" style="margin-top: 3vw;">
-            <div class="R2L" style="text-align: left; width: 500px; margin-left: 5vw; margin-top: 50px;">
-                <h1 id="titulo1"></h1><br><br>
-                <h2 id="subtitulo1"></h2><br>
-                <a href="https://vincular.org.ar/abrir-al-mundo/"><div class="aam"></div></a><br>
-                <a href="https://vincular.org.ar/redes-de-tutoria/"><div class="rdt"></div></a><br>
-                <h2 id="subtitulo2"></h2><br>
-                <a href="https://vincular.org.ar/colapso-temporal/"><div class="coltemp"></div></a><br>
-                <a href="https://vincular.org.ar/oscuminar-2/"><div class="osc"></div></a><br>
-                <a href="https://vincular.org.ar/espacios-extraordinarios/"><div class="espex"></div></a><br>
-                <a href="https://vincular.org.ar/constelaciones-urbanas/"><div class="consturb"></div></a><br>
-                <a href="https://vincular.org.ar/viajes/"><div class="via"></div></a><br>
-                <a href="https://vincular.org.ar/revuelo-2/"><div class="rev"></div></a>
-            <br><br></div>
-
+        <div class="content">
+            <div class="R2L" style="text-align: center; width: 1000px; margin-top: 50px;">
+                <center><img src="https://vincular.org.ar/wp-content/uploads/2025/03/AAM.png" alt="" style="height:100px;"></center><br><br>
+                <p style="color: white; font-size:30px; margin-left:50px; margin-right:50px; text-align: left" id="info1"></p><br><br>
+                <!-- <img src="https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/img/revuelo_01.jpg" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block">
+                <img src="https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/img/revuelo_02.jpg" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block"><br>
+                <p style="color: white; font-size:30px; margin-left:50px; margin-right:50px; text-align: right" id="info2"></p><br>
+                <img src="https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/img/revuelo_03.jpg" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block">
+                <img src="https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/img/revuelo_04.jpg" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block">
+                <img src="https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/img/revuelo_05.jpg" alt="" style="width:50%; height:250px; object-fit:cover; display:inline-block"><br>
+                <p style="color: white; font-size:30px; margin-left:50px; margin-right:50px; text-align: left" id="info3"></p><br>
+                <img src="https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/img/revuelo_06.JPG" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block">
+                <img src="https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/img/revuelo_07.JPG" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block"> -->
+                <br>
+                <br>
+            </div>
         </div>
     </div>
     <script>
-        fetch("https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/content/proyectos.txt")
+        fetch("https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/content/abrirAlMundo.txt")
      .then(response => response.text())
     .then(data => {
         // Buscar todas las coincidencias con etiquetas personalizadas (/ini#clave ... /end)

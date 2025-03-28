@@ -1,0 +1,9 @@
+/ini#info1
+⚠ Esta sección se encuentra en desarrollo.
+/end
+/ini#info2
+
+/end
+/ini#info3
+
+/end
