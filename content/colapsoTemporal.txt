@@ -1,0 +1,10 @@
+/ini#info1
+Colapso temporal:
+¿Quién no imaginó la posibilidad de viajar en el tiempo? ¿Qué sucede si vamos al pasado o al futuro? ¿Podemos cambiar los acontecimientos y generar un nuevo presente? ¿Podemos viajar al futuro y regresar al presente para evitar que ocurran cosas malas? ¿Qué momento de la historia o del futuro querríamos conocer? ¿Tal vez vernos a nosotros mismos?... 
+/end
+/ini#info2
+En esta propuesta pensamos los sentidos del tiempo, los modos de medirlo, investigamos e imaginamos en función de cómo lo han pensados los científicos y los artistas.
+/end
+/ini#info3
+Y crearemos una máquina para viajar en el tiempo y jugar, descubrir y transformar los acontecimientos!!
+/end

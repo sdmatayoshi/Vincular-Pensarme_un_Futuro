@@ -343,8 +343,19 @@
     <div class="has-bg-img">
         <div class="content">
             <div class="R2L" style="text-align: center; width: 1000px; margin-top: 50px;">
-                <center><img src="https://vincular.org.ar/wp-content/uploads/2025/03/osc.jpg" alt="" style="height:100px;"></center>
-                <p style="color: white; font-size:30px" id="info1"></p>
+                <center><img src="https://vincular.org.ar/wp-content/uploads/2025/03/osc.jpg" alt="" style="height:100px;"></center><br><br>
+                <p style="color: white; font-size:30px; margin-left:50px; margin-right:50px; text-align: left" id="info1"></p><br><br>
+                <img src="https://vincular.org.ar/wp-content/uploads/2025/03/GESTION_10.jpg" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block">
+                <img src="https://vincular.org.ar/wp-content/uploads/2025/03/GESTION_09.jpg" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block"><br>
+                <p style="color: white; font-size:30px; margin-left:50px; margin-right:50px; text-align: right" id="info2"></p><br>
+                <img src="https://vincular.org.ar/wp-content/uploads/2025/03/GESTION_07.jpg" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block">
+                <img src="https://vincular.org.ar/wp-content/uploads/2025/03/GESTION_11.jpg" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block">
+                <img src="https://vincular.org.ar/wp-content/uploads/2025/03/GESTION_12.jpg" alt="" style="width:50%; height:250px; object-fit:cover; display:inline-block"><br>
+                <p style="color: white; font-size:30px; margin-left:50px; margin-right:50px; text-align: left" id="info3"></p><br>
+                <img src="https://vincular.org.ar/wp-content/uploads/2025/03/GESTION_01.jpg" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block">
+                <img src="https://vincular.org.ar/wp-content/uploads/2025/03/GESTION_04.jpg" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block">
+                <br>
+                <br>
             </div>
         </div>
     </div>

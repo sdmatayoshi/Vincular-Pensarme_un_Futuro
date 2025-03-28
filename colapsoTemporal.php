@@ -96,7 +96,7 @@
                 min-width: 100%;
                 min-height: 100vh;
                 background: linear-gradient(to top, rgba(228, 240, 235, 1) 0%, rgba(228, 240, 235, 0) 20%),
-                    url(https://vincular.org.ar/wp-content/uploads/2024/10/snapedit_1736299645183-1.png);
+                    url(img/colapso_06.jpeg);
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;
@@ -242,11 +242,11 @@
             }
 
             .content {
-                background-color: #e4f0eb;
-                max-width: 75%;
+                background-color: #202020;
+                max-width: 90%;
                 height: 200%;
-                display: inline-block;
                 z-index: 1;
+                margin-top: 3vw;
             }
 
 
@@ -316,137 +316,6 @@
                 height: 0 !important;
                 width: 0 !important;
             }
-            .coltemp{
-                background-image: url('img/cticon.jpg');
-                text-align: center;
-                background-size:cover;
-                background-repeat: no-repeat;
-                height: 100px;
-                width: 400px;
-                border-radius: 50px;
-                background-position: 0px -25px;
-            }
-            .coltemp:hover{
-                background-size:cover;
-                background-repeat: no-repeat;
-                height: 100px;
-                width: 400px;
-                border-radius: 50px;
-                filter: brightness(200%);
-            }
-            .osc{
-                background-image: url('img/osc_2.jpg');
-                background-size:cover;
-                background-repeat: no-repeat;
-                height: 100px;
-                width: 400px;
-                border-radius: 50px;
-            }
-            .osc:hover{
-                background-position: -401px 0px;
-            }
-            .espex{
-                background-image: url('img/espext.jpg');
-                background-size:cover;
-                background-repeat: no-repeat;
-                height: 100px;
-                width: 400px;
-                border-radius: 50px;
-                background-position: 0px -25px;
-            }
-            .espex:hover{
-                background-size:cover;
-                background-repeat: no-repeat;
-                height: 100px;
-                width: 400px;
-                border-radius: 50px;
-                filter: brightness(200%);
-                
-            }
-            .consturb{
-                background-image: url('img/cons.jpg');
-                background-size:cover;
-                background-repeat: no-repeat;
-                height: 100px;
-                width: 400px;
-                border-radius: 50px;
-                background-position: 0px -50px;
-            }
-            .consturb:hover{
-                filter: brightness(75%);
-                background-size:cover;
-                background-repeat: no-repeat;
-                height: 100px;
-                width: 400px;
-                border-radius: 50px;
-            }
-            .via{
-                background-color: #f7c200;
-                text-align: center;
-                background-size:cover;
-                background-repeat: no-repeat;
-                height: 100px;
-                width: 400px;
-                border-radius: 50px;
-            }
-            .via:hover{
-                background-color:rgb(102, 80, 1);
-                background-size:cover;
-                background-repeat: no-repeat;
-                height: 100px;
-                width: 400px;
-                border-radius: 50px;
-            }
-            .rev{
-                background-color: #f7c200;
-                text-align: center;
-                background-size:cover;
-                background-repeat: no-repeat;
-                height: 100px;
-                width: 400px;
-                border-radius: 50px;
-            }
-            .rev:hover{
-                background-color:rgb(102, 80, 1);
-                background-size:cover;
-                background-repeat: no-repeat;
-                height: 100px;
-                width: 400px;
-                border-radius: 50px;
-            }
-            .aam{
-                background-image: url(img/AAM.png);
-                background-repeat: no-repeat;
-                background-size: 100%;
-                height: 100px;
-                width: 400px;
-                border-radius: 50px;
-            }
-            .aam:hover{
-                filter: brightness(75%);
-                background-size: 100%;
-                background-repeat: no-repeat;
-                height: 100px;
-                width: 400px;
-                border-radius: 50px;
-            }
-            .rdt{
-                background-image: url(img/rdt_v2.jpg);
-                text-align: center;
-                background-size: cover;
-                background-repeat: no-repeat;
-                height: 100px;
-                width: 400px;
-                border-radius: 50px;
-            }
-            .rdt:hover{
-                filter: brightness(50%);
-                background-size:cover;
-                background-repeat: no-repeat;
-                height: 100px;
-                width: 400px;
-                border-radius: 50px;
-            }
         </style>
 </head>
 
@@ -456,7 +325,7 @@
             <li class="logo"> <a href="index.php"><img class="HDN"
                         src="https://vincular.org.ar/wp-content/uploads/2024/10/logo-3.png" style="height: 75px;"></a>
             </li>
-            <li><a class="und D2U" style="text-decoration: underline; color:rgba(50, 50, 50, 1); cursor: pointer">¿Quiénes somos?</a></li>
+            <li><a class="und D2U" href="quienesSomos.php">¿Quiénes somos?</a></li>
             <li>
                 <a class="und D2U" href="nuestraTarea.php">Nuestra tarea ▾</a>
                 <ul class="dropdown">
@@ -472,25 +341,26 @@
         </ul>
     </div>
     <div class="has-bg-img">
-        <div class="content" style="margin-top: 3vw;">
-            <div class="R2L" style="text-align: left; width: 500px; margin-left: 5vw; margin-top: 50px;">
-                <h1 id="titulo1"></h1><br><br>
-                <h2 id="subtitulo1"></h2><br>
-                <a href="#"><div class="aam"></div></a><br>
-                <a href="#"><div class="rdt"></div></a><br>
-                <h2 id="subtitulo2"></h2><br>
-                <a href="colapsoTemporal.php"><div class="coltemp"></div></a><br>
-                <a href="oscuminar.php"><div class="osc"></div></a><br>
-                <a href="#"><div class="espex"></div></a><br>
-                <a href="#"><div class="consturb"></div></a><br>
-                <a href="#"><div class="via">Viajes</div></a><br>
-                <a href="#"><div class="rev">Revuelo</div></a>
-            <br><br></div>
-
+        <div class="content">
+            <div class="R2L" style="text-align: center; width: 1000px; margin-top: 50px;">
+                <center><img src="img/cticon.jpg" alt="" style="height:100px;"></center><br><br>
+                <p style="color: white; font-size:30px; margin-left:50px; margin-right:50px; text-align: left" id="info1"></p><br><br>
+                <img src="img/colapso_01.jpeg" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block">
+                <img src="img/colapso_02.jpeg" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block"><br>
+                <p style="color: white; font-size:30px; margin-left:50px; margin-right:50px; text-align: right" id="info2"></p><br>
+                <img src="img/colapso_03.jpeg" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block">
+                <img src="img/colapso_04.jpeg" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block">
+                <img src="img/colapso_05.jpeg" alt="" style="width:50%; height:250px; object-fit:cover; display:inline-block"><br>
+                <p style="color: white; font-size:30px; margin-left:50px; margin-right:50px; text-align: left" id="info3"></p><br>
+                <img src="img/colapso_06.jpeg" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block">
+                <img src="img/colapso_07.jpeg" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block">
+                <br>
+                <br>
+            </div>
         </div>
     </div>
     <script>
-        fetch("https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/content/proyectos.txt")
+        fetch("https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/content/colapsoTemporal.txt")
      .then(response => response.text())
     .then(data => {
         // Buscar todas las coincidencias con etiquetas personalizadas (/ini#clave ... /end)
