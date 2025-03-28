@@ -398,7 +398,7 @@
                 border-radius: 50px;
             }
             .rev{
-                background-color: #f7c200;
+                background-image: url(https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/img/revuelo.png);
                 text-align: center;
                 background-size:cover;
                 background-repeat: no-repeat;
@@ -407,7 +407,7 @@
                 border-radius: 50px;
             }
             .rev:hover{
-                background-color:rgb(102, 80, 1);
+                filter: brightness(80%);
                 background-size:cover;
                 background-repeat: no-repeat;
                 height: 100px;
@@ -484,7 +484,7 @@
                 <a href="#"><div class="espex"></div></a><br>
                 <a href="#"><div class="consturb"></div></a><br>
                 <a href="#"><div class="via">Viajes</div></a><br>
-                <a href="#"><div class="rev">Revuelo</div></a>
+                <a href="https://vincular.org.ar/revuelo-2/"><div class="rev"></div></a>
             <br><br></div>
 
         </div>
