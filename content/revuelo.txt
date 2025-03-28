@@ -1,5 +1,5 @@
 /ini#info1
-Revuelo: ¿Cómo se puede volar? ¿Qué inventos nos permiten volar? ¿Y qué artes? ¿Con quién podemos volar?
+¿Cómo se puede volar? ¿Qué inventos nos permiten volar? ¿Y qué artes? ¿Con quién podemos volar?
 /end
 /ini#info2
 Indagando en conceptos de la mecánica, la física  y en las ideas de aquellos que volaron con su imaginación, construimos la nave Revuelo, un barco volador echo con un globo de helio, el cual lanzamos en una fiesta multitudinaria en el parque de Costanera Sur.

@@ -1,0 +1,9 @@
+/ini#info1
+¿Te animás a cruzar los portales hacia los mundos extraordinarios creados por chicos y chicas de los barrios de Buenos Aires?
+/end
+/ini#info2
+Los valientes que se lancen al conocimiento de esos mundos diversos, acceden a un espacio lúdico con una escenografía creada por los pibes y pibas.
+/end
+/ini#info3
+El mundo cabeza abajo, los universos subacuáticos, las cuevas de arañas gigantes o ingresar al libro de Alicia en el país de las maravillas… 
+/end

@@ -1,5 +1,4 @@
 /ini#info1
-Colapso temporal:
 ¿Quién no imaginó la posibilidad de viajar en el tiempo? ¿Qué sucede si vamos al pasado o al futuro? ¿Podemos cambiar los acontecimientos y generar un nuevo presente? ¿Podemos viajar al futuro y regresar al presente para evitar que ocurran cosas malas? ¿Qué momento de la historia o del futuro querríamos conocer? ¿Tal vez vernos a nosotros mismos?... 
 /end
 /ini#info2

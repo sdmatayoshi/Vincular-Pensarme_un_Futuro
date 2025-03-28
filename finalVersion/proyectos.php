@@ -346,13 +346,12 @@
                 background-position: -401px 0px;
             }
             .espex{
-                background-image: url('https://vincular.org.ar/wp-content/uploads/2025/03/espext.jpg');
+                background-image: url('https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/img/eeicon.jpg');
                 background-size:cover;
                 background-repeat: no-repeat;
                 height: 100px;
                 width: 400px;
                 border-radius: 50px;
-                background-position: 0px -25px;
             }
             .espex:hover{
                 background-size:cover;
