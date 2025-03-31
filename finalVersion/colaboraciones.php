@@ -245,7 +245,6 @@
                 height: 200%;
                 display: inline-block;
                 z-index: 1;
-                float: left;
                 color: #fff;
             }
 
