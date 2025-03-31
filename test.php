@@ -473,48 +473,29 @@
     <div class="has-bg-img">
         <div class="content" style="margin-top: 3vw;">
             <div id="mainBody" class="R2L" style="text-align: left; width: 500px; margin-left: 5vw; margin-top: 50px;">
-                <script>
-                    const archivoURL = "https://raw.githubusercontent.com/tu_usuario/tu_repositorio/main/testContent.php?nocache=" + new Date().getTime();
-
-                    fetch(archivoURL)
-                        .then(response => {
-                            if (!response.ok) throw new Error("No se pudo obtener los datos de la página.");
-                            return response.text();
-                        })
-                        .then(data => {
-                            // Insertar contenido como HTML
-                            document.getElementById("mainContent").innerHTML = data;
-                        })
-                        .catch(error => {
-                            document.getElementById("mainContent").innerHTML = "<h1>Error de carga ☹</h1> <br><h3>Por favor recague la página presionando el boton ⟳ o la tecla F5.<br>Si el error persiste, intente de nuevo más tarde.</h3><br><br>";
-                        });
-
-
-
-
-                    fetch("https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/content/proyectos.txt?nocache=" + new Date().getTime())
-                        .then(response => response.text())
-                        .then(data => {
-                            // Buscar todas las coincidencias con etiquetas personalizadas (/ini#clave ... /end)
-                            let matches = [...data.matchAll(/\/ini#(\w+)\s(.*?)\/end/gs)];
-
-                            if (matches.length > 0) {
-                                matches.forEach(match => {
-                                    let clave = match[1]; // Nombre del identificador (ej. "titulo")
-                                    let contenido = match[2].trim(); // Contenido dentro del bloque
-
-                                    // Insertar contenido en el elemento correspondiente si existe
-                                    let elemento = document.getElementById(clave);
-                                    if (elemento) {
-                                        elemento.innerHTML = contenido;
-                                    }
-                                });
-                            } else {
-                                document.getElementById("error").innerHTML = "<h1>Error de carga ☹</h1> <br><h3>Por favor recague la página presionando el boton ⟳ o la tecla F5.<br>Si el error persiste, intente de nuevo más tarde.</h3><br><br>";
-                            }
-                        })
-                        .catch(error => console.error("Error de carga. No se pudieron obtener los datos.", error));
-                    document.addEventListener("DOMContentLoaded", function() {
+            </div>
+        </div>
+    </div>
+    <script>
+        const navbarURL = "https://raw.githubusercontent.com/tu_usuario/tu_repositorio/main/navbar.php?nocache=" + new Date().getTime();
+        fetch(navbarURL)
+            .then(response => {
+                if (!response.ok) throw new Error("No se pudo obtener los datos de la página.");
+                return response.text();
+            })
+            .then(data => {
+                document.getElementById("navbar").innerHTML = data;
+            })
+        const contentURL = "https://raw.githubusercontent.com/tu_usuario/tu_repositorio/main/testContent.php?nocache=" + new Date().getTime();
+        fetch(contentURL)
+            .then(response => {
+                if (!response.ok) throw new Error("No se pudo obtener los datos de la página.");
+                return response.text();
+            })
+            .then(data => {
+                document.getElementById("mainContent").innerHTML = data;
+            })
+            document.addEventListener("DOMContentLoaded", function() {
                         let elements = document.querySelectorAll(".D2U");
                         let observer = new IntersectionObserver(entries => {
                             entries.forEach(entry => {
@@ -582,10 +563,7 @@
 
                         elements.forEach(element => observer.observe(element));
                     });
-                </script>
-            </div>
-        </div>
-    </div>
+    </script>
 </body>
 
 </html>
