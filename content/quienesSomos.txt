@@ -1,6 +1,6 @@
-/ini#titulo1
+
 Te contamos
-/end
+
 
 /ini#subtitulo1
 ¿Quiénes somos?
