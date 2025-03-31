@@ -27,7 +27,7 @@
 </a>
 <br><br>
 <script>
-    fetch("https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/content/proyectos.txt?nocache=" + new Date().getTime())
+    fetch("https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/content/formacionAsistencia.txt?nocache=" + new Date().getTime())
                         .then(response => response.text())
                         .then(data => {
                             // Buscar todas las coincidencias con etiquetas personalizadas (/ini#clave ... /end)
