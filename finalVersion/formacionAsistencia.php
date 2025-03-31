@@ -344,9 +344,7 @@
         <div class="content" style="margin-top: 3vw;">
             <div class="R2L" style="text-align: left; width: 75%; margin-left: 5vw; margin-top: 50px;">
                 <h1 id="titulo1"></h1><br><br>
-                <p id="contenido1">
-                
-            </p><br>
+                <p id="contenido1"></p><br>
             </div>
 
         </div>
