@@ -316,105 +316,118 @@
                 height: 0 !important;
                 width: 0 !important;
             }
-            .coltemp{
+
+            .coltemp {
                 background-image: url('https://vincular.org.ar/wp-content/uploads/2025/03/cticon.jpg');
                 text-align: center;
-                background-size:cover;
+                background-size: cover;
                 background-repeat: no-repeat;
                 height: 100px;
                 width: 400px;
                 border-radius: 50px;
                 background-position: 0px -25px;
             }
-            .coltemp:hover{
-                background-size:cover;
+
+            .coltemp:hover {
+                background-size: cover;
                 background-repeat: no-repeat;
                 height: 100px;
                 width: 400px;
                 border-radius: 50px;
                 filter: brightness(200%);
             }
-            .osc{
+
+            .osc {
                 background-image: url('https://vincular.org.ar/wp-content/uploads/2025/03/osc_2.jpg');
-                background-size:cover;
+                background-size: cover;
                 background-repeat: no-repeat;
                 height: 100px;
                 width: 400px;
                 border-radius: 50px;
             }
-            .osc:hover{
+
+            .osc:hover {
                 background-position: -401px 0px;
             }
-            .espex{
+
+            .espex {
                 background-image: url('https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/img/eeicon.jpg');
-                background-size:cover;
+                background-size: cover;
                 background-repeat: no-repeat;
                 height: 100px;
                 width: 400px;
                 border-radius: 50px;
             }
-            .espex:hover{
-                background-size:cover;
+
+            .espex:hover {
+                background-size: cover;
                 background-repeat: no-repeat;
                 height: 100px;
                 width: 400px;
                 border-radius: 50px;
                 filter: brightness(200%);
-                
+
             }
-            .consturb{
+
+            .consturb {
                 background-image: url('https://vincular.org.ar/wp-content/uploads/2025/03/cons.jpg');
-                background-size:cover;
+                background-size: cover;
                 background-repeat: no-repeat;
                 height: 100px;
                 width: 400px;
                 border-radius: 50px;
                 background-position: 0px -50px;
             }
-            .consturb:hover{
+
+            .consturb:hover {
                 filter: brightness(75%);
-                background-size:cover;
+                background-size: cover;
                 background-repeat: no-repeat;
                 height: 100px;
                 width: 400px;
                 border-radius: 50px;
             }
-            .via{
+
+            .via {
                 background-image: url(https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/img/vicon.jpg);
                 text-align: center;
-                background-size:cover;
+                background-size: cover;
                 background-repeat: no-repeat;
                 height: 100px;
                 width: 400px;
                 border-radius: 50px;
                 background-position: 0px -25px;
             }
-            .via:hover{
-                background-size:cover;
+
+            .via:hover {
+                background-size: cover;
                 background-repeat: no-repeat;
                 height: 100px;
                 width: 400px;
                 border-radius: 50px;
                 filter: brightness(80%);
             }
-            .rev{
+
+            .rev {
                 background-image: url(https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/img/revuelo.png);
                 text-align: center;
-                background-size:cover;
+                background-size: cover;
                 background-repeat: no-repeat;
                 height: 100px;
                 width: 400px;
                 border-radius: 50px;
             }
-            .rev:hover{
+
+            .rev:hover {
                 filter: brightness(80%);
-                background-size:cover;
+                background-size: cover;
                 background-repeat: no-repeat;
                 height: 100px;
                 width: 400px;
                 border-radius: 50px;
             }
-            .aam{
+
+            .aam {
                 background-image: url(https://vincular.org.ar/wp-content/uploads/2025/03/AAM.png);
                 background-repeat: no-repeat;
                 background-size: 100%;
@@ -422,7 +435,8 @@
                 width: 400px;
                 border-radius: 50px;
             }
-            .aam:hover{
+
+            .aam:hover {
                 filter: brightness(75%);
                 background-size: 100%;
                 background-repeat: no-repeat;
@@ -430,7 +444,8 @@
                 width: 400px;
                 border-radius: 50px;
             }
-            .rdt{
+
+            .rdt {
                 background-image: url(https://vincular.org.ar/wp-content/uploads/2025/03/rdt_v2.jpg);
                 text-align: center;
                 background-size: cover;
@@ -439,9 +454,10 @@
                 width: 400px;
                 border-radius: 50px;
             }
-            .rdt:hover{
+
+            .rdt:hover {
                 filter: brightness(50%);
-                background-size:cover;
+                background-size: cover;
                 background-repeat: no-repeat;
                 height: 100px;
                 width: 400px;
@@ -451,137 +467,124 @@
 </head>
 
 <body>
-<div class="navbar">
-        <ul class="menu">
-            <li class="logo"> <a href="https://vincular.org.ar"><img class="HDN"
-                        src="https://vincular.org.ar/wp-content/uploads/2024/10/logo-3.png" style="height: 75px;"></a>
-            </li>
-            <li><a class="und D2U" href="https://vincular.org.ar/quienes-somos-3/">¿Quiénes somos?</a></li>
-            <li>
-                <a class="und D2U" href="https://vincular.org.ar/nuestra-tarea/">Nuestra tarea ▾</a>
-                <ul class="dropdown">
-                    <li><a class="und" href="https://vincular.org.ar/nuestros-proyectos/">Nuestros Proyectos</a>
-                    </li>
-                    <li><a class="und" href="https://vincular.org.ar/formacion-y-asistencia-tecnica/">Formacion y Asistencia Técnica</a></li>
-                    <li><a class="und" href="https://vincular.org.ar/red-solidaria-vincularnos/">Red Solidaria "Vincularnos"</a></li>
-                </ul>
-            </li>
-            <li><a class="und D2U" href="https://vincular.org.ar/contactanos/">Contáctanos</a></li>
-            <li><a class="und D2U" href="https://vincular.org.ar/participar/">Participar</a></li>
-            <li><a class="und D2U" href="https://vincular.org.ar/galeria-de-fotos/">Galería</a></li>
-        </ul>
+    <div class="navbar">
+
     </div>
     <div class="has-bg-img">
         <div class="content" style="margin-top: 3vw;">
-            <div class="R2L" style="text-align: left; width: 500px; margin-left: 5vw; margin-top: 50px;">
-                <h1 id="titulo1"></h1><br><br>
-                <h2 id="subtitulo1"></h2><br>
-                <a href="https://vincular.org.ar/abrir-al-mundo/"><div class="aam"></div></a><br>
-                <a href="https://vincular.org.ar/redes-de-tutoria/"><div class="rdt"></div></a><br>
-                <h2 id="subtitulo2"></h2><br>
-                <a href="https://vincular.org.ar/colapso-temporal/"><div class="coltemp"></div></a><br>
-                <a href="https://vincular.org.ar/oscuminar-2/"><div class="osc"></div></a><br>
-                <a href="https://vincular.org.ar/espacios-extraordinarios/"><div class="espex"></div></a><br>
-                <a href="https://vincular.org.ar/constelaciones-urbanas/"><div class="consturb"></div></a><br>
-                <a href="https://vincular.org.ar/viajes/"><div class="via"></div></a><br>
-                <a href="https://vincular.org.ar/revuelo-2/"><div class="rev"></div></a>
-            <br><br>
+            <div id="mainBody" class="R2L" style="text-align: left; width: 500px; margin-left: 5vw; margin-top: 50px;">
+                <script>
+                    const archivoURL = "https://raw.githubusercontent.com/tu_usuario/tu_repositorio/main/testContent.php?nocache=" + new Date().getTime();
+
+                    fetch(archivoURL)
+                        .then(response => {
+                            if (!response.ok) throw new Error("No se pudo obtener los datos de la página.");
+                            return response.text();
+                        })
+                        .then(data => {
+                            // Insertar contenido como HTML
+                            document.getElementById("mainContent").innerHTML = data;
+                        })
+                        .catch(error => {
+                            document.getElementById("mainContent").innerHTML = "<h1>Error de carga ☹</h1> <br><h3>Por favor recague la página presionando el boton ⟳ o la tecla F5.<br>Si el error persiste, intente de nuevo más tarde.</h3><br><br>";
+                        });
+
+
+
+
+                    fetch("https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/content/proyectos.txt?nocache=" + new Date().getTime())
+                        .then(response => response.text())
+                        .then(data => {
+                            // Buscar todas las coincidencias con etiquetas personalizadas (/ini#clave ... /end)
+                            let matches = [...data.matchAll(/\/ini#(\w+)\s(.*?)\/end/gs)];
+
+                            if (matches.length > 0) {
+                                matches.forEach(match => {
+                                    let clave = match[1]; // Nombre del identificador (ej. "titulo")
+                                    let contenido = match[2].trim(); // Contenido dentro del bloque
+
+                                    // Insertar contenido en el elemento correspondiente si existe
+                                    let elemento = document.getElementById(clave);
+                                    if (elemento) {
+                                        elemento.innerHTML = contenido;
+                                    }
+                                });
+                            } else {
+                                document.getElementById("error").innerHTML = "<h1>Error de carga ☹</h1> <br><h3>Por favor recague la página presionando el boton ⟳ o la tecla F5.<br>Si el error persiste, intente de nuevo más tarde.</h3><br><br>";
+                            }
+                        })
+                        .catch(error => console.error("Error de carga. No se pudieron obtener los datos.", error));
+                    document.addEventListener("DOMContentLoaded", function() {
+                        let elements = document.querySelectorAll(".D2U");
+                        let observer = new IntersectionObserver(entries => {
+                            entries.forEach(entry => {
+                                if (entry.isIntersecting) {
+                                    entry.target.classList.add("D2Uv");
+                                }
+                            });
+                        }, {
+                            threshold: 0.5
+                        });
+                        elements.forEach(element => observer.observe(element));
+                    });
+                    document.addEventListener("DOMContentLoaded", function() {
+                        let elements = document.querySelectorAll(".U2D");
+                        let observer = new IntersectionObserver(entries => {
+                            entries.forEach(entry => {
+                                if (entry.isIntersecting) {
+                                    entry.target.classList.add("U2Dv");
+                                }
+                            });
+                        }, {
+                            threshold: 0.5
+                        });
+                        elements.forEach(element => observer.observe(element));
+                    });
+                    document.addEventListener("DOMContentLoaded", function() {
+                        let elements = document.querySelectorAll(".R2L");
+                        let observer = new IntersectionObserver(entries => {
+                            entries.forEach(entry => {
+                                if (entry.isIntersecting) {
+                                    entry.target.classList.add("R2Lv");
+                                }
+                            });
+                        }, {
+                            threshold: 0.5
+                        });
+
+                        elements.forEach(element => observer.observe(element));
+                    });
+                    document.addEventListener("DOMContentLoaded", function() {
+                        let elements = document.querySelectorAll(".L2R");
+                        let observer = new IntersectionObserver(entries => {
+                            entries.forEach(entry => {
+                                if (entry.isIntersecting) {
+                                    entry.target.classList.add("L2Rv");
+                                }
+                            });
+                        }, {
+                            threshold: 0.5
+                        });
+
+                        elements.forEach(element => observer.observe(element));
+                    });
+                    document.addEventListener("DOMContentLoaded", function() {
+                        let elements = document.querySelectorAll(".HDN");
+                        let observer = new IntersectionObserver(entries => {
+                            entries.forEach(entry => {
+                                if (entry.isIntersecting) {
+                                    entry.target.classList.add("VSBL");
+                                }
+                            });
+                        }, {
+                            threshold: 0.7
+                        });
+
+                        elements.forEach(element => observer.observe(element));
+                    });
+                </script>
+            </div>
         </div>
-
-        </div>
-    </div>
-    <script>
-        fetch("https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/content/proyectos.txt?nocache=" + new Date().getTime())
-     .then(response => response.text())
-    .then(data => {
-        // Buscar todas las coincidencias con etiquetas personalizadas (/ini#clave ... /end)
-        let matches = [...data.matchAll(/\/ini#(\w+)\s(.*?)\/end/gs)];
-
-        if (matches.length > 0) {
-            matches.forEach(match => {
-                let clave = match[1]; // Nombre del identificador (ej. "titulo")
-                let contenido = match[2].trim(); // Contenido dentro del bloque
-                
-                // Insertar contenido en el elemento correspondiente si existe
-                let elemento = document.getElementById(clave);
-                if (elemento) {
-                    elemento.innerHTML = contenido;
-                }
-            });
-        }else{
-            document.getElementById("error").innerHTML="<h1>Error de carga ☹</h1> <br><h3>Por favor recague la página presionando el boton ⟳ o la tecla F5.<br>Si el error persiste, intente de nuevo más tarde.</h3><br><br>";
-        }
-    })
-    .catch(error => console.error("Error de carga. <br>Porfavor recague la página presionando el boton ⟳ o la tecla F5.<br>Si el error persiste, intente de nuevo más tarde:", error));
-        document.addEventListener("DOMContentLoaded", function() {
-            let elements = document.querySelectorAll(".D2U");
-            let observer = new IntersectionObserver(entries => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add("D2Uv");
-                    }
-                });
-            }, {
-                threshold: 0.5
-            });
-            elements.forEach(element => observer.observe(element));
-        });
-        document.addEventListener("DOMContentLoaded", function() {
-            let elements = document.querySelectorAll(".U2D");
-            let observer = new IntersectionObserver(entries => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add("U2Dv");
-                    }
-                });
-            }, {
-                threshold: 0.5
-            });
-            elements.forEach(element => observer.observe(element));
-        });
-        document.addEventListener("DOMContentLoaded", function() {
-            let elements = document.querySelectorAll(".R2L");
-            let observer = new IntersectionObserver(entries => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add("R2Lv");
-                    }
-                });
-            }, {
-                threshold: 0.5
-            });
-
-            elements.forEach(element => observer.observe(element));
-        });
-        document.addEventListener("DOMContentLoaded", function() {
-            let elements = document.querySelectorAll(".L2R");
-            let observer = new IntersectionObserver(entries => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add("L2Rv");
-                    }
-                });
-            }, {
-                threshold: 0.5
-            });
-
-            elements.forEach(element => observer.observe(element));
-        });
-        document.addEventListener("DOMContentLoaded", function() {
-            let elements = document.querySelectorAll(".HDN");
-            let observer = new IntersectionObserver(entries => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add("VSBL");
-                    }
-                });
-            }, {
-                threshold: 0.7
-            });
-
-            elements.forEach(element => observer.observe(element));
-        });
-    </script>
     </div>
 </body>
 

@@ -342,7 +342,7 @@
     </div>
     <div class="has-bg-img">
         <div class="content" style="margin-top: 3vw;">
-            <div class="R2L" style="text-align: left; width: 75%; margin-left: 5vw; margin-top: 50px;">
+            <div class="R2L" id="error" style="text-align: left; width: 75%; margin-left: 5vw; margin-top: 50px;">
                 <h1 id="titulo1"></h1><br><br>
                 <h2 id="subtitulo1"></h2><br>
                 <p style="font-size: 1.5vw;" id="detalles1"></p><br><br>
@@ -370,7 +370,7 @@
         </div>
     </div>
     <script>
-        fetch("https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/content/quienesSomos.txt")
+        fetch("https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/content/quienesSomos.txt?nocache=" + new Date().getTime())
      .then(response => response.text())
     .then(data => {
         // Buscar todas las coincidencias con etiquetas personalizadas (/ini#clave ... /end)
@@ -387,6 +387,8 @@
                     elemento.innerHTML = contenido;
                 }
             });
+        }else{
+            document.getElementById("error").innerHTML="<h1>Error de carga ☹</h1> <br><h3>Por favor recague la página presionando el boton ⟳ o la tecla F5.<br>Si el error persiste, intente de nuevo más tarde.</h3><br><br>";
         }
     })
     .catch(error => console.error("Error de carga. <br>Porfavor recague la página presionando el boton ⟳ o la tecla F5.<br>Si el error persiste, intente de nuevo más tarde:", error));
