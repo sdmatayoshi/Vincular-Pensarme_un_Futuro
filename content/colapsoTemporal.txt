@@ -1,9 +1,9 @@
 /ini#info1
-¿Quién no imaginó la posibilidad de viajar en el tiempo? ¿Qué sucede si vamos al pasado o al futuro? ¿Podemos cambiar los acontecimientos y generar un nuevo presente? ¿Podemos viajar al futuro y regresar al presente para evitar que ocurran cosas malas? ¿Qué momento de la historia o del futuro querríamos conocer? ¿Tal vez vernos a nosotros mismos?... 
+Nos encontramos desarrollando este proyecto, que tiene su eje en la idea de viajar en el tiempo. 
 /end
 /ini#info2
-En esta propuesta pensamos los sentidos del tiempo, los modos de medirlo, investigamos e imaginamos en función de cómo lo han pensados los científicos y los artistas.
+¿Qué sucede si vamos al pasado o al futuro? ¿Podemos cambiar los acontecimientos y generar un nuevo presente? ¿Podemos viajar al futuro y regresar al presente para evitar que ocurran cosas malas? ¿Qué momento de la historia o del futuro querríamos conocer? ¿Tal vez vernos a nosotros mismos?... 
 /end
 /ini#info3
-Y crearemos una máquina para viajar en el tiempo y jugar, descubrir y transformar los acontecimientos!!
+En esta propuesta pensamos los sentidos del tiempo, los modo de medirlo, investigamos e imaginamos en función de cómo lo han pensados los científicos y los artistas. Y crearemos una máquina para viajar en el tiempo y jugar, descubrir y transformar los acontecimientos.
 /end
