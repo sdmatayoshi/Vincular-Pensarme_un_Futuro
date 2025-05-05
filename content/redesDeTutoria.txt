@@ -1,8 +1,8 @@
 /ini#info1
-⚠ Esta sección se encuentra en desarrollo.
+Acompañamiento a las acciones de Redes de Tutoría-  Argentina  que desde la relación tutora entre pares promueve el  aprendizaje partiendo del interés genuino de quienes aprenden y enseñan, a través de una metodología que fomenta una relación más personalizada y horizontal entre docentes y alumnos.
 /end
 /ini#info2
-
+https://redes-de-tutoria-argentina2.webnode.page/ 
 /end
 /ini#info3
 
