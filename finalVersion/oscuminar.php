@@ -342,7 +342,8 @@
     </div>
     <div class="has-bg-img">
         <div class="content">
-            <div class="R2L" style="text-align: center; width: 1000px; margin-top: 50px;">
+        <div style="float: left;margin-left:25px;margin-top:10px;width: 50px; height:50px; background-color:#e4f0eb; border-radius:100%"><a href="https://vincular.org.ar/proyectos/" style="color: black; text-decoration: none; font-size:40px;padding: 25px 0;">←</a></div>
+        <div class="R2L" style="text-align: center; width: 1000px; margin-top: 60px;">
                 <center><img src="https://vincular.org.ar/wp-content/uploads/2025/03/osc.jpg" alt="" style="height:100px;"></center><br><br>
                 <p style="color: white; font-size:30px; margin-left:50px; margin-right:50px; text-align: left" id="info1"></p><br><br>
                 <img src="https://vincular.org.ar/wp-content/uploads/2025/03/GESTION_10.jpg" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block">

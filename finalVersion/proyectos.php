@@ -431,21 +431,21 @@
                 border-radius: 50px;
             }
             .rdt{
-                background-image: url(https://vincular.org.ar/wp-content/uploads/2025/03/rdt_v2.jpg);
+                background-image: url(https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/img/logo%20con%20menos%20fondo.png);
                 text-align: center;
-                background-size: cover;
+                background-size:contain;
                 background-repeat: no-repeat;
                 height: 100px;
                 width: 400px;
-                border-radius: 50px;
+                border-radius: 0px;
             }
             .rdt:hover{
                 filter: brightness(50%);
-                background-size:cover;
+                background-size:contain;
                 background-repeat: no-repeat;
                 height: 100px;
                 width: 400px;
-                border-radius: 50px;
+                border-radius: 0px;
             }
         </style>
 </head>
@@ -475,11 +475,11 @@
         <div class="content" style="margin-top: 3vw;">
             <div class="R2L" style="text-align: left; width: 500px; margin-left: 5vw; margin-top: 50px;">
                 <h1 id="titulo1"></h1><br><br>
-                <h2 id="subtitulo1"></h2><br>
                 <a href="https://vincular.org.ar/abrir-al-mundo/"><div class="aam"></div></a><br>
+                <h2 id="subtitulo1"></h2><br>
                 <a href="https://vincular.org.ar/redes-de-tutoria/"><div class="rdt"></div></a><br>
-                <h2 id="subtitulo2"></h2><br>
                 <a href="https://vincular.org.ar/colapso-temporal/"><div class="coltemp"></div></a><br>
+                <h2 id="subtitulo2"></h2><br>
                 <a href="https://vincular.org.ar/oscuminar-2/"><div class="osc"></div></a><br>
                 <a href="https://vincular.org.ar/espacios-extraordinarios/"><div class="espex"></div></a><br>
                 <a href="https://vincular.org.ar/constelaciones-urbanas/"><div class="consturb"></div></a><br>

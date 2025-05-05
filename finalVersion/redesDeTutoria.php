@@ -342,9 +342,10 @@
     </div>
     <div class="has-bg-img">
         <div class="content">
-            <div class="R2L" style="text-align: center; width: 1000px; margin-top: 50px;">
-                <center><img src="https://vincular.org.ar/wp-content/uploads/2025/03/rdt_v2.jpg" alt="" style="height:100px;"></center><br><br>
-                <p style="color: white; font-size:30px; margin-left:50px; margin-right:50px; text-align: left" id="info1"></p><br><br>
+        <div style="float: left;margin-left:25px;margin-top:10px;width: 50px; height:50px; background-color:#e4f0eb; border-radius:100%"><a href="https://vincular.org.ar/proyectos/" style="color: black; text-decoration: none; font-size:40px;padding: 25px 0;">←</a></div>
+            <div class="R2L" style="text-align: center; width: 1000px; margin-top: 60px;">
+                <center><img src="https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/img/logo%20con%20menos%20fondo.png" alt="" style="height:100px;"></center><br><br>
+                <p style="color: white; font-size:30px; margin-left:50px; margin-right:50px; text-align: left" id="info1"></p><p style="color: white; font-size:30px; margin-left:50px; margin-right:50px; text-align: left"><a style="color: white;" href="https://redes-de-tutoria-argentina2.webnode.page/" target="_blank" id="info2"></a></p><br><br>
                 <!-- <img src="https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/img/revuelo_01.jpg" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block">
                 <img src="https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/img/revuelo_02.jpg" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block"><br>
                 <p style="color: white; font-size:30px; margin-left:50px; margin-right:50px; text-align: right" id="info2"></p><br>

@@ -96,7 +96,7 @@
                 min-width: 100%;
                 min-height: 100vh;
                 background: linear-gradient(to top, rgba(228, 240, 235, 1) 0%, rgba(228, 240, 235, 0) 20%),
-                    url(https://vincular.org.ar/wp-content/uploads/2025/03/oscuminar.png);
+                    url(https://raw.githubusercontent.com/sdmatayoshi/Vincular-Pensarme_un_Futuro/refs/heads/main/img/colapso_07.jpeg);
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;
@@ -342,7 +342,8 @@
     </div>
     <div class="has-bg-img">
         <div class="content">
-            <div class="R2L" style="text-align: center; width: 1000px; margin-top: 50px;">
+        <div style="float: left;margin-left:25px;margin-top:10px;width: 50px; height:50px; background-color:#e4f0eb; border-radius:100%"><a href="https://vincular.org.ar/proyectos/" style="color: black; text-decoration: none; font-size:40px;padding: 25px 0;">←</a></div>
+        <div class="R2L" style="text-align: center; width: 1000px; margin-top: 60px;">
                 <center><img src="https://vincular.org.ar/wp-content/uploads/2025/03/cticon.jpg" alt="" style="height:100px;"></center><br><br>
                 <p style="color: white; font-size:30px; margin-left:50px; margin-right:50px; text-align: left" id="info1"></p><br><br>
                 <img src="https://vincular.org.ar/wp-content/uploads/2025/03/colapso_01.jpeg" alt="" style="width:45%; height:250px; object-fit:cover; display:inline-block">
